@@ -1,0 +1,26 @@
+{
+    "table": "npc-motivation",
+    "dice": "1d20",
+    "results": {
+        "1": "Finish their work and go home.",
+        "2": "Earn enough money to settle a debt.",
+        "3": "Protect their family’s livelihood.",
+        "4": "Find companionship or conversation.",
+        "5": "Make a profitable business arrangement.",
+        "6": "Leave the region and start over.",
+        "7": "Recover something they have lost.",
+        "8": "Earn the respect of their community.",
+        "9": "Reconcile with someone they have wronged.",
+        "10": "Preserve their reputation.",
+        "11": "Avoid attracting unwanted attention.",
+        "12": "Impress someone they admire.",
+        "13": "Obtain land or establish a business.",
+        "14": "See a loved one safely settled.",
+        "15": "Find information about a missing acquaintance.",
+        "16": "Escape an unpleasant obligation.",
+        "17": "Prove a rival wrong.",
+        "18": "Serve their community or uphold a personal principle.",
+        "19": "Exact revenge for a perceived injustice.",
+        "20": "Satisfy their curiosity about something unusual."
+    }
+}

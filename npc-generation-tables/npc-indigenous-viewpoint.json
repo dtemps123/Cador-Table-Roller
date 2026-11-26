@@ -1,0 +1,14 @@
+{
+    "table": "npc-indigenous-viewpoint",
+    "dice": "1d8",
+    "results": {
+        "1": "Welcomes opportunities for trade and cultural exchange.",
+        "2": "Regards the newcomers with curiosity.",
+        "3": "Distinguishes ordinary settlers from the ambitions of their rulers.",
+        "4": "Seeks negotiated recognition of traditional territorial rights.",
+        "5": "Prefers to avoid contact with Cadorians altogether.",
+        "6": "Sees the land rush as an opportunity for personal enrichment.",
+        "7": "Believes armed resistance is necessary to preserve their homeland.",
+        "8": "Harbors a personal grievance against Cadorian settlers or authorities."
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "table": "npc-noble-name-feminine",
+    "dice": "1d12",
+    "results": {
+        "1": "Adela",
+        "2": "Beatrice",
+        "3": "Elspeth",
+        "4": "Isolde",
+        "5": "Lenora",
+        "6": "Maerwynn",
+        "7": "Marian",
+        "8": "Rosamund",
+        "9": "Sabine",
+        "10": "Sybilla",
+        "11": "Theodora",
+        "12": "Ysoria"
+    }
+}

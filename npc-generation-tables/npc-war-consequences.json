@@ -1,0 +1,14 @@
+{
+    "table": "npc-war-consequences",
+    "dice": "1d8",
+    "results": {
+        "1": "Lost a loved one in battle or during an occupation",
+        "2": "Family property was destroyed, confiscated, or abandoned",
+        "3": "Suffered a permanent injury or disfigurement",
+        "4": "Betrayed someone, or was betrayed, during the fighting",
+        "5": "Earned a military decoration or became a celebrated hero",
+        "6": "Profited enormously from the war, legally or otherwise",
+        "7": "Committed or witnessed an atrocity that still haunts them",
+        "8": "Owes their life to someone who fought for the opposing side"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "table": "npc-occupation-westbridge",
+    "dice": "1d20",
+    "results": {
+        "1": "Dockworker",
+        "2": "Dockworker",
+        "3": "Boatman",
+        "4": "Fisherman",
+        "5": "River pilot",
+        "6": "Ferryman",
+        "7": "Merchant sailor",
+        "8": "Warehouse clerk",
+        "9": "Customs clerk",
+        "10": "Shipwright",
+        "11": "Shipping broker",
+        "12": "Porter",
+        "13": "Netmaker",
+        "14": "Fishmonger",
+        "15": "Tavernkeeper",
+        "16": "Gambler",
+        "17": "Bounty hunter",
+        "18": "Ranger or deputy",
+        "19": "Retired soldier",
+        "20": {
+            "table": "Unusual occupation",
+            "dice": "external-table:npc-unusual-occupation",
+            "results": "Unusual occupation"
+        }
+    }
+}

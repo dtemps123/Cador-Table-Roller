@@ -1,0 +1,19 @@
+{
+    "table": "npc-naming-conventions",
+    "dice": "1d13",
+    "results": {
+        "1": "Cadorian nobility — Medieval European given names; established family names — Leofric Ashbourne, Isolde Bellacourt",
+        "2": "Woodland elves — Melodic given names with naturalistic surnames — Caelis Fernwake, Elowyn Briarbrook",
+        "3": "Sand elves — Distinctive given names and ancestral or familial names — Nasira sa-Tarek, Darim al-Seth",
+        "4": "Namaris sea elves — Elven names with aquatic surnames — Selara Reedfin, Vaelor Deepwater",
+        "5": "Dwarves — Traditional dwarven names with occupational or ancestral surnames — Dorrin Hammerfell, Brynja Stonehand",
+        "6": "Varkesh orcs — Given names with earned descriptive surnames — Gorza Dunemane, Tharak Longstride",
+        "7": "Ash-Tusk orcs — Harsh given names and intimidating epithets — Brugg Skullsplitter, Morga Ironjaw",
+        "8": "Goblins — Short given names; occupational or descriptive nicknames — Tizz Bentnail, Grib Sootnose",
+        "9": "Rathen humans — Short given names with pastoral or descriptive surnames — Tarek Windrider, Edda Longtrail",
+        "10": "Lizardfolk — Sibilant given names and descriptive titles — Ssesska Reed-Eye, Kriss of the Shallows",
+        "11": "Frogfolk — Grandiose titles or humble descriptive names — Lord Gribbert Wartsworth, Bog Flycatcher",
+        "12": "Highcairn goliaths — Given names followed by earned descriptive names — Thorga Snowwalker, Kavu Cliff-Strider",
+        "13": "Broadmaw giants — Simple given names with literal descriptive epithets — Bogg Three-Teeth, Urga Big-Spoon"
+    }
+}

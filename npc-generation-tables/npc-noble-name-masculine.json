@@ -1,0 +1,18 @@
+{
+    "table": "npc-noble-name-masculine",
+    "dice": "1d12",
+    "results": {
+        "1": "Alaric",
+        "2": "Bertram",
+        "3": "Corvin",
+        "4": "Edran",
+        "5": "Garran",
+        "6": "Hadrien",
+        "7": "Leofric",
+        "8": "Lucien",
+        "9": "Osric",
+        "10": "Perrin",
+        "11": "Roderic",
+        "12": "Severin"
+    }
+}

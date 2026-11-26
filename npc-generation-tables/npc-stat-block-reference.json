@@ -1,0 +1,22 @@
+{
+    "table": "npc-stat-block-reference",
+    "dice": "1d16",
+    "results": {
+        "1": "Ordinary laborer, farmer, merchant — Commoner (CR 0)",
+        "2": "Town deputy or caravan guard — Guard (CR 1/8)",
+        "3": "Highwayman or petty criminal — Bandit (CR 1/8)",
+        "4": "Fanatical follower — Cultist (CR 1/8)",
+        "5": "Highway robber or hired enforcer — Thug (CR 1/2)",
+        "6": "Hunter, tracker, or pathfinder — Scout (CR 1/2)",
+        "7": "Aristocrat or wealthy merchant — Noble (CR 1/8)",
+        "8": "Traveling physician or religious attendant — Acolyte (CR 1/4)",
+        "9": "Experienced outlaw commander — Bandit Captain (CR 2)",
+        "10": "Tribal warrior — Tribal Warrior (CR 1/8)",
+        "11": "Experienced soldier or gunslinger — Veteran (CR 3)",
+        "12": "Ranger officer or knight — Knight (CR 3)",
+        "13": "Professional infiltrator — Spy (CR 1)",
+        "14": "Experienced priest or shaman — Priest (CR 2)",
+        "15": "Practiced spellcaster — Mage (CR 6)",
+        "16": "Professional killer — Assassin (CR 8)"
+    }
+}

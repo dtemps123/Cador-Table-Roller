@@ -1,0 +1,30 @@
+{
+    "table": "npc-occupation-thornhollow",
+    "dice": "1d20",
+    "results": {
+        "1": "Lumberjack",
+        "2": "Lumberjack",
+        "3": "Sawyer",
+        "4": "Mill worker",
+        "5": "Forester",
+        "6": "Trapper",
+        "7": "Hunter",
+        "8": "Carpenter",
+        "9": "Cooper",
+        "10": "Herbalist",
+        "11": "Timber merchant",
+        "12": "Wagoner",
+        "13": "Woodcarver",
+        "14": "Farmer",
+        "15": "Innkeeper",
+        "16": "Traveling peddler",
+        "17": "Bounty hunter",
+        "18": "Ranger or deputy",
+        "19": "Retired soldier",
+        "20": {
+            "table": "Unusual occupation",
+            "dice": "external-table:npc-unusual-occupation",
+            "results": "Unusual occupation"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "table": "rumor-mill-any-region",
+    "dice": "1d4",
+    "results": {
+        "1": {
+            "table": "Redvale",
+            "dice": "external-table:rumor-mill-redvale",
+            "results": "Redvale"
+        },
+        "2": {
+            "table": "Blackvein",
+            "dice": "external-table:rumor-mill-blackvein",
+            "results": "Blackvein"
+        },
+        "3": {
+            "table": "Thornhollow",
+            "dice": "external-table:rumor-mill-thornhollow",
+            "results": "Thornhollow"
+        },
+        "4": {
+            "table": "Westbridge",
+            "dice": "external-table:rumor-mill-westbridge",
+            "results": "Westbridge"
+        }
+    }
+}

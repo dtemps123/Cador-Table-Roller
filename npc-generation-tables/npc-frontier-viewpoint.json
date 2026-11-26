@@ -1,0 +1,18 @@
+{
+    "table": "npc-frontier-viewpoint",
+    "dice": "1d12",
+    "results": {
+        "1": "The Pioneer. Believes anyone willing to work hard deserves the opportunity to establish a new life.",
+        "2": "The Loyal Subject. Regards eastern expansion as a necessary means of restoring Cador’s prosperity.",
+        "3": "The Fortune Seeker. Cares little for politics; the frontier is simply where fortunes are made.",
+        "4": "The Frontiersman. Believes the people who settle the frontier should govern themselves.",
+        "5": "The Traditionalist. Regards the East as an extension of Cador that must respect established noble authority.",
+        "6": "The Reconciler. Believes settlers and the frontier’s established inhabitants can prosper through cooperation.",
+        "7": "The Dispossessed. Has come east because there was nothing left for them elsewhere.",
+        "8": "The Land Speculator. Sees the frontier primarily as a source of investment and personal enrichment.",
+        "9": "The Protector. Believes expansion must respect the rights and territories of existing peoples.",
+        "10": "The Supremacist. Regards Cadorian civilization as inherently superior to the societies of the wilderness.",
+        "11": "The Cynic. Believes the marquises and merchant companies will eventually exploit the frontier’s commonfolk just as their predecessors did.",
+        "12": "The Escapist. Came east to escape the influence of kings, nobles, guilds, and political conflicts altogether."
+    }
+}

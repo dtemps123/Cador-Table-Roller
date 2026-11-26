@@ -1,0 +1,45 @@
+{
+    "table": "npc-westbridge-incidental",
+    "subtables": [
+        {
+            "table": "Given name",
+            "dice": "external-table:npc-given-name",
+            "results": "Given name"
+        },
+        {
+            "table": "Surname",
+            "dice": "external-table:npc-surname",
+            "results": "Surname"
+        },
+        {
+            "table": "Ancestry",
+            "dice": "external-table:npc-ancestry",
+            "results": "Ancestry"
+        },
+        {
+            "table": "Origin",
+            "dice": "external-table:npc-origin",
+            "results": "Origin"
+        },
+        {
+            "table": "Occupation",
+            "dice": "external-table:npc-occupation-westbridge",
+            "results": "Occupation"
+        },
+        {
+            "table": "Appearance",
+            "dice": "external-table:npc-appearance",
+            "results": "Appearance"
+        },
+        {
+            "table": "Personality",
+            "dice": "external-table:npc-personality",
+            "results": "Personality"
+        },
+        {
+            "table": "Mannerism",
+            "dice": "external-table:npc-mannerism",
+            "results": "Mannerism"
+        }
+    ]
+}

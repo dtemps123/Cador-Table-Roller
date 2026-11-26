@@ -1,0 +1,26 @@
+{
+    "table": "faction-encounter-redvale",
+    "dice": "1d20",
+    "results": {
+        "1": "Faction: Copper Spurs\nPotential NPCs: Ada Penrose, Caleb Rill\nEncounter composition: Mounted Rangers, knights, trackers, bounty hunters, riding patrols",
+        "2": "Faction: Copper Spurs\nPotential NPCs: Ada Penrose, Caleb Rill\nEncounter composition: Mounted Rangers, knights, trackers, bounty hunters, riding patrols",
+        "3": "Faction: Copper Spurs\nPotential NPCs: Ada Penrose, Caleb Rill\nEncounter composition: Mounted Rangers, knights, trackers, bounty hunters, riding patrols",
+        "4": "Faction: Varkesh Herd-Clans\nPotential NPCs: Mazra Flintmane, Rukhan Redspur, Vesha Three-Rivers\nEncounter composition: Orc herders, mounted warriors, hunters, horse traders, livestock herds",
+        "5": "Faction: Varkesh Herd-Clans\nPotential NPCs: Mazra Flintmane, Rukhan Redspur, Vesha Three-Rivers\nEncounter composition: Orc herders, mounted warriors, hunters, horse traders, livestock herds",
+        "6": "Faction: Varkesh Herd-Clans\nPotential NPCs: Mazra Flintmane, Rukhan Redspur, Vesha Three-Rivers\nEncounter composition: Orc herders, mounted warriors, hunters, horse traders, livestock herds",
+        "7": "Faction: Rathen Trail-Clans\nPotential NPCs: Maela Rusk, Darik Wolf-Mane, Orun Wheelkeeper\nEncounter composition: Human nomads, mounted hunters, warriors, migrating families, herders",
+        "8": "Faction: Rathen Trail-Clans\nPotential NPCs: Maela Rusk, Darik Wolf-Mane, Orun Wheelkeeper\nEncounter composition: Human nomads, mounted hunters, warriors, migrating families, herders",
+        "9": "Faction: Thalenweald\nPotential NPCs: Nimrael Reedwake, Kavren Tallgrass, Yselle Finchroot\nEncounter composition: Wood elf River Wardens, archers, horse breeders, healers, traders",
+        "10": "Faction: Thalenweald\nPotential NPCs: Nimrael Reedwake, Kavren Tallgrass, Yselle Finchroot\nEncounter composition: Wood elf River Wardens, archers, horse breeders, healers, traders",
+        "11": "Faction: Four-Spur Land & Cattle\nPotential NPCs: Cora Brant, Della Mercer, Hugh Maddox\nEncounter composition: Drovers, cattle herds, ranch hands, mounted guards, hired enforcers",
+        "12": "Faction: Four-Spur Land & Cattle\nPotential NPCs: Cora Brant, Della Mercer, Hugh Maddox\nEncounter composition: Drovers, cattle herds, ranch hands, mounted guards, hired enforcers",
+        "13": "Faction: Four-Spur Land & Cattle\nPotential NPCs: Cora Brant, Della Mercer, Hugh Maddox\nEncounter composition: Drovers, cattle herds, ranch hands, mounted guards, hired enforcers",
+        "14": "Faction: Red Reins\nPotential NPCs: Sabine Rourke\nEncounter composition: Veteran cavalry, mounted crossbowmen, rustlers, kidnappers, horse thieves",
+        "15": "Faction: Red Reins\nPotential NPCs: Sabine Rourke\nEncounter composition: Veteran cavalry, mounted crossbowmen, rustlers, kidnappers, horse thieves",
+        "16": "Faction: Broadmaw Kindreds\nPotential NPCs: Grudda Four-Bowls, Morna Root-Eater, Pogg One-Eye\nEncounter composition: Hill giants, cattle raiders, hunting parties",
+        "17": "Faction: Qasari\nPotential NPCs: Nahira sa-Qesh, Azhar Tarek, Serath Qasir\nEncounter composition: High elf merchants, Dune Riders, caravan guards, pack animals",
+        "18": "Faction: Eastway Overland & Express\nPotential NPCs: Mabel Harrow, Dawson Tull\nEncounter composition: Stagecoaches, freight caravans, mounted couriers, guards",
+        "19": "Faction: Greycoat Detective Agency\nPotential NPCs: Mara Quill, Gideon Crowe\nEncounter composition: Mounted bounty hunters, investigators, trackers, armed posses",
+        "20": "Faction: Independent Ranchers\nPotential NPCs: Anwen Pell\nEncounter composition: Ranch hands, drovers, homesteaders, livestock herds, armed riders"
+    }
+}

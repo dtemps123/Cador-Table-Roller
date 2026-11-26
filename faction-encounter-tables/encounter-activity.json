@@ -1,0 +1,18 @@
+{
+    "table": "encounter-activity",
+    "dice": "1d12",
+    "results": {
+        "1": "Traveling between locations",
+        "2": "Resting or making camp",
+        "3": "Patrolling territory",
+        "4": "Hunting or gathering provisions",
+        "5": "Transporting goods or supplies",
+        "6": "Trading or conducting negotiations",
+        "7": "Scouting or surveying an area",
+        "8": "Guarding a location or valuable asset",
+        "9": "Searching for someone or something",
+        "10": "Pursuing or fleeing another faction",
+        "11": "Recovering from a recent calamity or battle",
+        "12": "Undertaking a significant faction-specific operation"
+    }
+}

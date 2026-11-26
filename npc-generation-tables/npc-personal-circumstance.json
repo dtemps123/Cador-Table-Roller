@@ -1,0 +1,26 @@
+{
+    "table": "npc-personal-circumstance",
+    "dice": "1d20",
+    "results": {
+        "1": "Has a comfortable life and few serious troubles.",
+        "2": "Recently inherited some property.",
+        "3": "Is preparing to marry or start a family.",
+        "4": "Has a strained relationship with a relative.",
+        "5": "Owes a considerable sum of money.",
+        "6": "Is responsible for several dependents.",
+        "7": "Suffers from a chronic illness or old injury.",
+        "8": "Is involved in a disputed property claim.",
+        "9": "Has recently lost their livelihood.",
+        "10": "Belongs to a family divided by the war.",
+        "11": "Is secretly helping a wanted individual.",
+        "12": "Has an ongoing feud with a neighbor.",
+        "13": "Regularly trades with an indigenous frontier community.",
+        "14": "Possesses something of sentimental or historical value.",
+        "15": "Has been offered a lucrative but questionable arrangement.",
+        "16": "Is estranged from their ancestral community.",
+        "17": "Is supporting a relative through difficult circumstances.",
+        "18": "Is quietly prospering while their neighbors struggle.",
+        "19": "Is concealing a shameful episode from their past.",
+        "20": "Has witnessed something they cannot explain."
+    }
+}

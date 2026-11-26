@@ -1,0 +1,26 @@
+{
+    "table": "faction-encounter-thornhollow",
+    "dice": "1d20",
+    "results": {
+        "1": "Faction: Blackthorns\nPotential NPCs: Aldith Bracken, Hollis Thatch\nEncounter composition: Woodland Rangers, scouts, mounted patrols, archers, logging escorts",
+        "2": "Faction: Blackthorns\nPotential NPCs: Aldith Bracken, Hollis Thatch\nEncounter composition: Woodland Rangers, scouts, mounted patrols, archers, logging escorts",
+        "3": "Faction: Blackthorns\nPotential NPCs: Aldith Bracken, Hollis Thatch\nEncounter composition: Woodland Rangers, scouts, mounted patrols, archers, logging escorts",
+        "4": "Faction: Velthari\nPotential NPCs: Elaris Fenbough, Tavian Briarhand, Maeriel Fenbough\nEncounter composition: Wood elf hunters, archers, warbands, emissaries, foresters",
+        "5": "Faction: Velthari\nPotential NPCs: Elaris Fenbough, Tavian Briarhand, Maeriel Fenbough\nEncounter composition: Wood elf hunters, archers, warbands, emissaries, foresters",
+        "6": "Faction: Velthari\nPotential NPCs: Elaris Fenbough, Tavian Briarhand, Maeriel Fenbough\nEncounter composition: Wood elf hunters, archers, warbands, emissaries, foresters",
+        "7": "Faction: Hollowbough\nPotential NPCs: Orren Hollowbough, Saelis Moonthorn, Halen Darkroot\nEncounter composition: Hidden Wardens, wood elf scouts, pathfinders, hunters",
+        "8": "Faction: Hollowbough\nPotential NPCs: Orren Hollowbough, Saelis Moonthorn, Halen Darkroot\nEncounter composition: Hidden Wardens, wood elf scouts, pathfinders, hunters",
+        "9": "Faction: Briarhearth Freeholds\nPotential NPCs: Edrik Hallow, Sela Hallow, Wolter Grell\nEncounter composition: Human villagers, hunters, foresters, local militia, traders",
+        "10": "Faction: Briarhearth Freeholds\nPotential NPCs: Edrik Hallow, Sela Hallow, Wolter Grell\nEncounter composition: Human villagers, hunters, foresters, local militia, traders",
+        "11": "Faction: Rattleknife Mob\nPotential NPCs: Kreech Redcap, Spindle Vex, Pikka Sharp-Eye\nEncounter composition: Goblin highwaymen, ambushers, scouts, thieves, raiding parties",
+        "12": "Faction: Rattleknife Mob\nPotential NPCs: Kreech Redcap, Spindle Vex, Pikka Sharp-Eye\nEncounter composition: Goblin highwaymen, ambushers, scouts, thieves, raiding parties",
+        "13": "Faction: Last Colours\nPotential NPCs: Edric Vale\nEncounter composition: Veteran infantry, guerrillas, archers, supply parties, mercenary escorts",
+        "14": "Faction: Last Colours\nPotential NPCs: Edric Vale\nEncounter composition: Veteran infantry, guerrillas, archers, supply parties, mercenary escorts",
+        "15": "Faction: Ashen Vow\nPotential NPCs: Ysabet Crowthorne\nEncounter composition: Fallen knights, mounted retainers, zealots, irregular infantry",
+        "16": "Faction: Eastway Overland & Express\nPotential NPCs: Mabel Harrow, Dawson Tull\nEncounter composition: Freight caravans, road crews, timber wagons, armed escorts",
+        "17": "Faction: Eastway Overland & Express\nPotential NPCs: Mabel Harrow, Dawson Tull\nEncounter composition: Freight caravans, road crews, timber wagons, armed escorts",
+        "18": "Faction: Greycoat Detective Agency\nPotential NPCs: Mara Quill, Gideon Crowe\nEncounter composition: Bounty hunters, investigators, trackers, hired enforcers",
+        "19": "Faction: Independent Timbermen\nPotential NPCs: Tilda Morrow, Elias Kearne, Milo Darnell\nEncounter composition: Lumberjacks, timber merchants, wagoners, logging crews, hired guards",
+        "20": "Faction: Independent Timbermen\nPotential NPCs: Tilda Morrow, Elias Kearne, Milo Darnell\nEncounter composition: Lumberjacks, timber merchants, wagoners, logging crews, hired guards"
+    }
+}

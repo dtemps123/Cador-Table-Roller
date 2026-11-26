@@ -1,0 +1,16 @@
+{
+    "table": "npc-given-name",
+    "dice": "1d2",
+    "results": {
+        "1": {
+            "table": "Masculine given name",
+            "dice": "external-table:npc-name-masculine",
+            "results": "Masculine given name"
+        },
+        "2": {
+            "table": "Feminine given name",
+            "dice": "external-table:npc-name-feminine",
+            "results": "Feminine given name"
+        }
+    }
+}

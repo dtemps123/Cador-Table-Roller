@@ -1,0 +1,18 @@
+{
+    "table": "npc-war-viewpoint-neutral",
+    "dice": "1d12",
+    "results": {
+        "1": "(LG) The Impartial Magistrate. \"Justice does not change with the color of a banner.\" Condemned abuses by both armies and attempted to uphold the law.",
+        "2": "(NG) The Healer. \"A wounded man is a wounded man.\" Treated casualties regardless of allegiance and resents being asked whose side they were on.",
+        "3": "(CG) The Liberator. \"Neither crown nor guild owns a man's life.\" Helped conscripts, exploited laborers, and deserters escape both factions.",
+        "4": "(LN) The Contracted Merchant. \"A bargain is a bargain.\" Supplied whichever authorities lawfully controlled the roads, believing commerce must continue.",
+        "5": "(N) The Survivor. \"I had a farm before the war. Now I have a shovel and a grave.\" Wants nothing more than to rebuild a life.",
+        "6": "(CN) The Unprincipled Adventurer. \"Every army needs a fool willing to risk his neck.\" Sold services to both sides without much concern for ideology.",
+        "7": "(LE) The Financier. \"War is expensive. Peace is more expensive.\" Extended loans to both factions and acquired enormous influence through their debts.",
+        "8": "(NE) The Speculator. \"One man's misfortune is another man's opportunity.\" Purchased confiscated estates and ruined businesses for a fraction of their value.",
+        "9": "(CE) The Trafficker. \"People are valuable merchandise.\" Exploited displaced populations and war prisoners, potentially establishing connections with duergar slavers.",
+        "10": "(LG) The Foreign Envoy. \"Your quarrel does not annul our treaties.\" A representative of the elves or another neighboring people determined to defend existing territorial agreements.",
+        "11": "(NG) The Refugee. \"A pox on both their houses.\" Lost home and family to fighting and cares only about keeping the remaining family safe.",
+        "12": "(CN) The Disillusioned Veteran. \"I buried enough friends for a lifetime.\" Abandoned military service and seeks a new beginning in the frontier."
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "table": "npc-name-masculine",
+    "dice": "1d20",
+    "results": {
+        "1": "Abel",
+        "2": "Amos",
+        "3": "Barnaby",
+        "4": "Clement",
+        "5": "Edwin",
+        "6": "Elias",
+        "7": "Ernest",
+        "8": "Gideon",
+        "9": "Harlan",
+        "10": "Harvey",
+        "11": "Isaac",
+        "12": "Jasper",
+        "13": "Jonah",
+        "14": "Levi",
+        "15": "Luther",
+        "16": "Otis",
+        "17": "Reuben",
+        "18": "Silas",
+        "19": "Tobias",
+        "20": "Walter"
+    }
+}

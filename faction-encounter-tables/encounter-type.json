@@ -1,0 +1,26 @@
+{
+    "table": "encounter-type",
+    "dice": "1d20",
+    "results": {
+        "1": "Faction encounter",
+        "2": "Faction encounter",
+        "3": "Faction encounter",
+        "4": "Faction encounter",
+        "5": "Faction encounter",
+        "6": "Faction encounter",
+        "7": "Faction encounter",
+        "8": "Faction encounter",
+        "9": "Creature encounter",
+        "10": "Creature encounter",
+        "11": "Creature encounter",
+        "12": "Creature encounter",
+        "13": "Creature encounter",
+        "14": "Creature encounter",
+        "15": "Environmental hazard",
+        "16": "Environmental hazard",
+        "17": "Environmental hazard",
+        "18": "Discovery or point of interest",
+        "19": "Discovery or point of interest",
+        "20": "Unusual or supernatural event"
+    }
+}

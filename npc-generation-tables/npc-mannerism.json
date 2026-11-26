@@ -1,0 +1,26 @@
+{
+    "table": "npc-mannerism",
+    "dice": "1d20",
+    "results": {
+        "1": "Calls everyone “partner.”",
+        "2": "Frequently consults a pocket watch.",
+        "3": "Chews constantly on a piece of straw.",
+        "4": "Speaks painfully slowly.",
+        "5": "Begins stories without ever finishing them.",
+        "6": "Employs elaborate metaphors involving livestock.",
+        "7": "Rolls a coin across their knuckles.",
+        "8": "Frequently quotes their mother or grandfather.",
+        "9": "Whistles when uncomfortable.",
+        "10": "Addresses everyone by formal titles, whether deserved or not.",
+        "11": "Polishes their spectacles while thinking.",
+        "12": "Laughs at their own jokes before delivering the punchline.",
+        "13": "Constantly adjusts their hat.",
+        "14": "Answers questions with questions.",
+        "15": "Never seems to look anyone directly in the eye.",
+        "16": "Speaks in clipped military expressions.",
+        "17": "Begins disagreements with “Now, I ain’t sayin’...”",
+        "18": "Consults omens before making decisions.",
+        "19": "Habitually mispronounces people’s names.",
+        "20": "Uses exaggerated courtesy even when issuing threats."
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "table": "npc-surname",
+    "dice": "1d20",
+    "results": {
+        "1": "Ashwell",
+        "2": "Bell",
+        "3": "Blackwood",
+        "4": "Bracken",
+        "5": "Bridger",
+        "6": "Cobb",
+        "7": "Crowley",
+        "8": "Dunlow",
+        "9": "Farrow",
+        "10": "Fletcher",
+        "11": "Graves",
+        "12": "Hayward",
+        "13": "Hobb",
+        "14": "Marsh",
+        "15": "Miller",
+        "16": "Pritchard",
+        "17": "Rook",
+        "18": "Thatcher",
+        "19": "Wainwright",
+        "20": "Wick"
+    }
+}

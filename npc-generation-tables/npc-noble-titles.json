@@ -1,0 +1,12 @@
+{
+    "table": "npc-noble-titles",
+    "dice": "1d6",
+    "results": {
+        "1": "Monarchy — King, Queen, Prince, Princess — “Your Grace”",
+        "2": "Southern Great Houses — Duke, Duchess, Count, Contessa — “My Lord/Lady”",
+        "3": "Northern Great Houses — Duke, Duchess, Earl, Countess — “My Lord/Lady”",
+        "4": "Frontier Great Houses — Marquis, Marquessa — “My Lord/Lady”",
+        "5": "Minor Houses — Baron, Baroness — “My Lord/Lady”",
+        "6": "Knights — Sir, Dame — “Sir/Dame”"
+    }
+}

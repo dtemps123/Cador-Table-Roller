@@ -1,0 +1,13 @@
+{
+    "table": "npc-ghosts-of-the-war",
+    "dice": "1d7",
+    "results": {
+        "1": "War medals and regimental colors. Old soldiers recognize one another by their decorations, heraldry, and scars. A northern veteran might refuse to drink alongside someone wearing the badge of a particular royalist regiment.",
+        "2": "The roll of pardons. Former rebels possess written pardons bearing royal seals. Losing such a document could expose a veteran to accusations of outlawry, particularly on the frontier where official records are difficult to verify.",
+        "3": "Confiscated estates. Families have lost ancestral homes and livelihoods. A noble household rewarded for its loyalty might now occupy an estate seized from the family of a former friend.",
+        "4": "War songs and forbidden banners. Northern marching songs may be tolerated in some towns and considered seditious in others. Songs written to celebrate royal victories might be openly mocked in northern taverns.",
+        "5": "The war's absent generation. Certain communities have lost so many young men and women that farms lie abandoned, trades lack apprentices, and surviving families struggle to maintain their livelihoods.",
+        "6": "The veterans' silence. Many soldiers who experienced the fighting firsthand have less enthusiasm for renewed conflict than politicians who never saw a battlefield. This needn't make them pacifists; it might simply make them deeply skeptical of patriotic speeches.",
+        "7": "The question of the frontier itself. As Cador expands eastward, both northern and southern settlers describe the territory as an opportunity for a fresh start. But that same rhetoric can obscure the rights and established communities of the elves, orcs, goblins, and others who already inhabit it."
+    }
+}

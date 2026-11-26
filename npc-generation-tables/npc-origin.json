@@ -1,0 +1,18 @@
+{
+    "table": "npc-origin",
+    "dice": "1d12",
+    "results": {
+        "1": "Northern Cador",
+        "2": "Northern Cador",
+        "3": "Northern Cador",
+        "4": "Northern Cador",
+        "5": "Southern Cador",
+        "6": "Southern Cador",
+        "7": "Southern Cador",
+        "8": "A frontier community established before the Edict of the East",
+        "9": "A frontier community established before the Edict of the East",
+        "10": "Duskfell refugee or descendant of displaced inhabitants",
+        "11": "An independent community of the Eccentric East",
+        "12": "Foreign traveler or immigrant"
+    }
+}

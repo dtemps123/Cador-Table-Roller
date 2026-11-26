@@ -1,0 +1,26 @@
+{
+    "table": "faction-encounter-westbridge",
+    "dice": "1d20",
+    "results": {
+        "1": "Faction: River Spurs\nPotential NPCs: Lorian Dace, Tobin Sedge\nEncounter composition: Riverborne Rangers, mounted patrols, customs enforcement parties, patrol boats",
+        "2": "Faction: River Spurs\nPotential NPCs: Lorian Dace, Tobin Sedge\nEncounter composition: Riverborne Rangers, mounted patrols, customs enforcement parties, patrol boats",
+        "3": "Faction: River Spurs\nPotential NPCs: Lorian Dace, Tobin Sedge\nEncounter composition: Riverborne Rangers, mounted patrols, customs enforcement parties, patrol boats",
+        "4": "Faction: Namaris\nPotential NPCs: Thalessea Namaris, Corlen Siltwake, Vellis Duskfin\nEncounter composition: Sea elf Lake Wardens, aquatic raiders, fishermen, traders",
+        "5": "Faction: Namaris\nPotential NPCs: Thalessea Namaris, Corlen Siltwake, Vellis Duskfin\nEncounter composition: Sea elf Lake Wardens, aquatic raiders, fishermen, traders",
+        "6": "Faction: Namaris\nPotential NPCs: Thalessea Namaris, Corlen Siltwake, Vellis Duskfin\nEncounter composition: Sea elf Lake Wardens, aquatic raiders, fishermen, traders",
+        "7": "Faction: Blackwake Company\nPotential NPCs: Rellan Strake\nEncounter composition: Veteran river marines, smugglers, pirates, armed riverboats, ferrymen",
+        "8": "Faction: Blackwake Company\nPotential NPCs: Rellan Strake\nEncounter composition: Veteran river marines, smugglers, pirates, armed riverboats, ferrymen",
+        "9": "Faction: Ssaresh Reedholds\nPotential NPCs: Ishkara Silt-Eye, Sekk Brassscale, Tiss of the Nets\nEncounter composition: Lizardfolk warriors, river hunters, fishermen, trappers, healers",
+        "10": "Faction: Ssaresh Reedholds\nPotential NPCs: Ishkara Silt-Eye, Sekk Brassscale, Tiss of the Nets\nEncounter composition: Lizardfolk warriors, river hunters, fishermen, trappers, healers",
+        "11": "Faction: Mudcrown Court\nPotential NPCs: Ulbrik Mudcrown VII, Vromma Miretongue, Kobb Eel-Catcher\nEncounter composition: Bullywug warriors, tribute collectors, courtiers, fishermen",
+        "12": "Faction: Emberhearth Kin\nPotential NPCs: Helga Ironettle, Thrain Copperkettle, Mira Stoneward\nEncounter composition: Dwarven merchants, smiths, craftsmen, trading expeditions",
+        "13": "Faction: Eastway Overland & Express\nPotential NPCs: Mabel Harrow, Dawson Tull\nEncounter composition: Freight wagons, couriers, merchants, bridge crews, armed escorts",
+        "14": "Faction: Eastway Overland & Express\nPotential NPCs: Mabel Harrow, Dawson Tull\nEncounter composition: Freight wagons, couriers, merchants, bridge crews, armed escorts",
+        "15": "Faction: Greycoat Detective Agency\nPotential NPCs: Mara Quill, Gideon Crowe\nEncounter composition: Investigators, bounty hunters, private guards, property recovery parties",
+        "16": "Faction: Ironmark Assay & Trust\nPotential NPCs: Abigail Mercer, Iris Flint, Gable Sorn\nEncounter composition: Bank agents, bullion shipments, debt collectors, armed escorts",
+        "17": "Faction: Four-Spur Land & Cattle\nPotential NPCs: Della Mercer, Hugh Maddox\nEncounter composition: Livestock traders, drovers, mounted escorts, supply caravans",
+        "18": "Faction: Thalenweald\nPotential NPCs: Nimrael Reedwake, Kavren Tallgrass, Yselle Finchroot\nEncounter composition: Wood elf traders, River Wardens, fishermen, scouts",
+        "19": "Faction: Thalenweald\nPotential NPCs: Nimrael Reedwake, Kavren Tallgrass, Yselle Finchroot\nEncounter composition: Wood elf traders, River Wardens, fishermen, scouts",
+        "20": "Faction: Independent Riverfolk\nPotential NPCs: Hadria Senn, Tavish Hull\nEncounter composition: Boatmen, fishermen, ferrymen, independent merchants, cargo crews"
+    }
+}

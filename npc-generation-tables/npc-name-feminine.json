@@ -1,0 +1,26 @@
+{
+    "table": "npc-name-feminine",
+    "dice": "1d20",
+    "results": {
+        "1": "Ada",
+        "2": "Agnes",
+        "3": "Bess",
+        "4": "Clara",
+        "5": "Cora",
+        "6": "Delia",
+        "7": "Edith",
+        "8": "Elsie",
+        "9": "Esther",
+        "10": "Florence",
+        "11": "Hattie",
+        "12": "Ida",
+        "13": "Judith",
+        "14": "Lorna",
+        "15": "Mabel",
+        "16": "Martha",
+        "17": "Nell",
+        "18": "Pearl",
+        "19": "Ruth",
+        "20": "Winnie"
+    }
+}

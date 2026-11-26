@@ -1,0 +1,25 @@
+{
+    "table": "encounter-southern-deserts",
+    "subtables": [
+        {
+            "table": "Faction encounter",
+            "dice": "external-table:faction-encounter-southern-deserts",
+            "results": "Faction encounter"
+        },
+        {
+            "table": "Activity",
+            "dice": "external-table:encounter-activity",
+            "results": "Activity"
+        },
+        {
+            "table": "Initial disposition",
+            "dice": "external-table:encounter-disposition",
+            "results": "Initial disposition"
+        },
+        {
+            "table": "Named NPC presence",
+            "dice": "external-table:encounter-npc-presence",
+            "results": "Named NPC presence"
+        }
+    ]
+}

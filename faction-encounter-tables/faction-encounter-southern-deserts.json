@@ -1,0 +1,26 @@
+{
+    "table": "faction-encounter-southern-deserts",
+    "dice": "1d20",
+    "results": {
+        "1": "Faction: Qasari\nPotential NPCs: Nahira sa-Qesh, Azhar Tarek, Serath Qasir\nEncounter composition: Dune Riders, high elf merchants, caravan guards, desert travelers",
+        "2": "Faction: Qasari\nPotential NPCs: Nahira sa-Qesh, Azhar Tarek, Serath Qasir\nEncounter composition: Dune Riders, high elf merchants, caravan guards, desert travelers",
+        "3": "Faction: Qasari\nPotential NPCs: Nahira sa-Qesh, Azhar Tarek, Serath Qasir\nEncounter composition: Dune Riders, high elf merchants, caravan guards, desert travelers",
+        "4": "Faction: Qasari\nPotential NPCs: Nahira sa-Qesh, Azhar Tarek, Serath Qasir\nEncounter composition: Dune Riders, high elf merchants, caravan guards, desert travelers",
+        "5": "Faction: Qasari\nPotential NPCs: Nahira sa-Qesh, Azhar Tarek, Serath Qasir\nEncounter composition: Dune Riders, high elf merchants, caravan guards, desert travelers",
+        "6": "Faction: Qasari\nPotential NPCs: Nahira sa-Qesh, Azhar Tarek, Serath Qasir\nEncounter composition: Dune Riders, high elf merchants, caravan guards, desert travelers",
+        "7": "Faction: Qasari\nPotential NPCs: Nahira sa-Qesh, Azhar Tarek, Serath Qasir\nEncounter composition: Dune Riders, high elf merchants, caravan guards, desert travelers",
+        "8": "Faction: Qasari\nPotential NPCs: Nahira sa-Qesh, Azhar Tarek, Serath Qasir\nEncounter composition: Dune Riders, high elf merchants, caravan guards, desert travelers",
+        "9": "Faction: Veyrathi\nPotential NPCs: Sarith al-Vey, Kesira Vayn, Ilyen Seret\nEncounter composition: Canyon Scouts, high elf scholars, ruin guardians, explorers",
+        "10": "Faction: Veyrathi\nPotential NPCs: Sarith al-Vey, Kesira Vayn, Ilyen Seret\nEncounter composition: Canyon Scouts, high elf scholars, ruin guardians, explorers",
+        "11": "Faction: Veyrathi\nPotential NPCs: Sarith al-Vey, Kesira Vayn, Ilyen Seret\nEncounter composition: Canyon Scouts, high elf scholars, ruin guardians, explorers",
+        "12": "Faction: Veyrathi\nPotential NPCs: Sarith al-Vey, Kesira Vayn, Ilyen Seret\nEncounter composition: Canyon Scouts, high elf scholars, ruin guardians, explorers",
+        "13": "Faction: Veyrathi\nPotential NPCs: Sarith al-Vey, Kesira Vayn, Ilyen Seret\nEncounter composition: Canyon Scouts, high elf scholars, ruin guardians, explorers",
+        "14": "Faction: Veyrathi\nPotential NPCs: Sarith al-Vey, Kesira Vayn, Ilyen Seret\nEncounter composition: Canyon Scouts, high elf scholars, ruin guardians, explorers",
+        "15": "Faction: Veyrathi\nPotential NPCs: Sarith al-Vey, Kesira Vayn, Ilyen Seret\nEncounter composition: Canyon Scouts, high elf scholars, ruin guardians, explorers",
+        "16": "Faction: Rathen Trail-Clans\nPotential NPCs: Maela Rusk, Darik Wolf-Mane, Orun Wheelkeeper\nEncounter composition: Pastoral nomads, mounted warriors, traders",
+        "17": "Faction: Rathen Trail-Clans\nPotential NPCs: Maela Rusk, Darik Wolf-Mane, Orun Wheelkeeper\nEncounter composition: Pastoral nomads, mounted warriors, traders",
+        "18": "Faction: Rathen Trail-Clans\nPotential NPCs: Maela Rusk, Darik Wolf-Mane, Orun Wheelkeeper\nEncounter composition: Pastoral nomads, mounted warriors, traders",
+        "19": "Faction: Eastway Overland & Express\nPotential NPCs: Dawson Tull\nEncounter composition: Surveyors, scouts, exploratory caravans",
+        "20": "Faction: Copper Spurs\nPotential NPCs: Ada Penrose, Caleb Rill\nEncounter composition: Long-range mounted patrols, scouts"
+    }
+}

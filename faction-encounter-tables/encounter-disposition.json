@@ -1,0 +1,17 @@
+{
+    "table": "encounter-disposition",
+    "dice": "2d6",
+    "results": {
+        "2": "Immediately hostile",
+        "3": "Suspicious or unfriendly",
+        "4": "Suspicious or unfriendly",
+        "5": "Suspicious or unfriendly",
+        "6": "Neutral or indifferent",
+        "7": "Neutral or indifferent",
+        "8": "Neutral or indifferent",
+        "9": "Receptive or friendly",
+        "10": "Receptive or friendly",
+        "11": "Receptive or friendly",
+        "12": "Exceptionally helpful"
+    }
+}

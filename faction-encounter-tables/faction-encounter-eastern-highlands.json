@@ -1,0 +1,26 @@
+{
+    "table": "faction-encounter-eastern-highlands",
+    "dice": "1d20",
+    "results": {
+        "1": "Faction: Highcairn Clans\nPotential NPCs: Korva Skybreaker, Brannik Froststep, Oru Mountain-Song\nEncounter composition: Goliath mountaineers, warriors, guides, hunters",
+        "2": "Faction: Highcairn Clans\nPotential NPCs: Korva Skybreaker, Brannik Froststep, Oru Mountain-Song\nEncounter composition: Goliath mountaineers, warriors, guides, hunters",
+        "3": "Faction: Highcairn Clans\nPotential NPCs: Korva Skybreaker, Brannik Froststep, Oru Mountain-Song\nEncounter composition: Goliath mountaineers, warriors, guides, hunters",
+        "4": "Faction: Highcairn Clans\nPotential NPCs: Korva Skybreaker, Brannik Froststep, Oru Mountain-Song\nEncounter composition: Goliath mountaineers, warriors, guides, hunters",
+        "5": "Faction: Highcairn Clans\nPotential NPCs: Korva Skybreaker, Brannik Froststep, Oru Mountain-Song\nEncounter composition: Goliath mountaineers, warriors, guides, hunters",
+        "6": "Faction: Karrathi\nPotential NPCs: Torven Slatebough, Elira Stonefall, Varric Ashenleaf\nEncounter composition: Mountain Wardens, wood elf archers, scouts",
+        "7": "Faction: Karrathi\nPotential NPCs: Torven Slatebough, Elira Stonefall, Varric Ashenleaf\nEncounter composition: Mountain Wardens, wood elf archers, scouts",
+        "8": "Faction: Karrathi\nPotential NPCs: Torven Slatebough, Elira Stonefall, Varric Ashenleaf\nEncounter composition: Mountain Wardens, wood elf archers, scouts",
+        "9": "Faction: Karrathi\nPotential NPCs: Torven Slatebough, Elira Stonefall, Varric Ashenleaf\nEncounter composition: Mountain Wardens, wood elf archers, scouts",
+        "10": "Faction: Broadmaw Kindreds\nPotential NPCs: Grudda Four-Bowls, Morna Root-Eater, Pogg One-Eye\nEncounter composition: Hill giants, hunting parties, raiders",
+        "11": "Faction: Broadmaw Kindreds\nPotential NPCs: Grudda Four-Bowls, Morna Root-Eater, Pogg One-Eye\nEncounter composition: Hill giants, hunting parties, raiders",
+        "12": "Faction: Broadmaw Kindreds\nPotential NPCs: Grudda Four-Bowls, Morna Root-Eater, Pogg One-Eye\nEncounter composition: Hill giants, hunting parties, raiders",
+        "13": "Faction: Ash-Tusk Host\nPotential NPCs: Urzak Bone-Drum, Korga the Red-Handed, Drogath Ash-Eye\nEncounter composition: Orc warbands, hunters, shamans",
+        "14": "Faction: Ash-Tusk Host\nPotential NPCs: Urzak Bone-Drum, Korga the Red-Handed, Drogath Ash-Eye\nEncounter composition: Orc warbands, hunters, shamans",
+        "15": "Faction: Ash-Tusk Host\nPotential NPCs: Urzak Bone-Drum, Korga the Red-Handed, Drogath Ash-Eye\nEncounter composition: Orc warbands, hunters, shamans",
+        "16": "Faction: Blackpick Claimholders\nPotential NPCs: Borin Blackpick, Dagna Flintmark\nEncounter composition: Dwarven prospectors, explorers, mining expeditions",
+        "17": "Faction: Blackpick Claimholders\nPotential NPCs: Borin Blackpick, Dagna Flintmark\nEncounter composition: Dwarven prospectors, explorers, mining expeditions",
+        "18": "Faction: Crowbar Company\nPotential NPCs: Bennet Pike\nEncounter composition: Engineers, veteran soldiers, surveyors",
+        "19": "Faction: Hollow Regiment\nPotential NPCs: Merek Thorne\nEncounter composition: Infantry patrols, silent sentries, abductors",
+        "20": "Faction: Hollow Regiment\nPotential NPCs: Merek Thorne\nEncounter composition: Infantry patrols, silent sentries, abductors"
+    }
+}

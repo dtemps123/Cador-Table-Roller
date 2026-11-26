@@ -1,0 +1,26 @@
+{
+    "table": "npc-appearance",
+    "dice": "1d20",
+    "results": {
+        "1": "Sun-weathered face and leathery skin",
+        "2": "An exceptionally well-groomed mustache",
+        "3": "A conspicuous facial scar",
+        "4": "Missing fingers or an old hand injury",
+        "5": "A battered hat with a distinctive hatband",
+        "6": "A beautifully maintained pair of boots",
+        "7": "An old military coat with its insignia removed",
+        "8": "A gold or silver tooth",
+        "9": "Unusually bright, immaculate clothing",
+        "10": "Clothing permanently stained by their trade",
+        "11": "Elaborate braids or meticulously arranged hair",
+        "12": "A pronounced limp",
+        "13": "An old military decoration worn discreetly",
+        "14": "Numerous small charms and superstitious trinkets",
+        "15": "A missing eye or distinctive eyepatch",
+        "16": "A magnificent belt buckle",
+        "17": "A distinctive tattoo",
+        "18": "An impressive collection of rings",
+        "19": "Clothing several decades out of fashion",
+        "20": "An unusual weapon or family heirloom"
+    }
+}

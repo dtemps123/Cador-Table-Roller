@@ -1,0 +1,26 @@
+{
+    "table": "job-board-any-region",
+    "dice": "1d4",
+    "results": {
+        "1": {
+            "table": "Redvale",
+            "dice": "external-table:job-board-redvale",
+            "results": "Redvale"
+        },
+        "2": {
+            "table": "Blackvein",
+            "dice": "external-table:job-board-blackvein",
+            "results": "Blackvein"
+        },
+        "3": {
+            "table": "Thornhollow",
+            "dice": "external-table:job-board-thornhollow",
+            "results": "Thornhollow"
+        },
+        "4": {
+            "table": "Westbridge",
+            "dice": "external-table:job-board-westbridge",
+            "results": "Westbridge"
+        }
+    }
+}

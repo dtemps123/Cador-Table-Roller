@@ -1,0 +1,26 @@
+{
+    "table": "npc-personality",
+    "dice": "1d20",
+    "results": {
+        "1": "Gruff but fundamentally kind",
+        "2": "Cheerful and relentlessly optimistic",
+        "3": "Bitter and resentful",
+        "4": "Quiet and introspective",
+        "5": "Overly familiar with strangers",
+        "6": "Proud and easily offended",
+        "7": "Patient and exceedingly practical",
+        "8": "Suspicious of everyone’s intentions",
+        "9": "Boisterous and boastful",
+        "10": "Nervous and overly apologetic",
+        "11": "Generous to a fault",
+        "12": "Charming but transparently self-interested",
+        "13": "Stern and uncompromising",
+        "14": "Mischievous and irreverent",
+        "15": "Melancholic and sentimental",
+        "16": "Inquisitive and easily distracted",
+        "17": "Dry-witted and sarcastic",
+        "18": "Pious and contemplative",
+        "19": "Soft-spoken but intimidating",
+        "20": "Magnanimous and theatrical"
+    }
+}

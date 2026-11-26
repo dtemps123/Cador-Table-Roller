@@ -1,0 +1,18 @@
+{
+    "table": "npc-war-viewpoint-south",
+    "dice": "1d12",
+    "results": {
+        "1": "(LG) The Knight of Cador. \"One kingdom, one king, one people.\" Fought to preserve unity and believes victory obliges the crown to treat defeated subjects honorably.",
+        "2": "(NG) The Compassionate Loyalist. \"There was no glory in that war.\" Supported the crown but believes its conduct was frequently shameful.",
+        "3": "(CG) The Southern Dissenter. \"The ancient houses have ruled long enough.\" Sympathized with northern challenges to hereditary power, despite being raised in the south.",
+        "4": "(LN) The Oathsworn Knight. \"My father served the king. As did his father.\" Fought because fealty is the foundation of society, regardless of personal politics.",
+        "5": "(N) The Conscripted Farmer. \"The lord called the levy. What choice had I?\" Fought because refusal meant punishment and his family depended upon his estate.",
+        "6": "(CN) The Fortune-Seeking Sellsword. \"The crown paid better.\" Joined the royal armies for coin, adventure, and the opportunity to earn a reputation.",
+        "7": "(LE) The Blood-Proud Aristocrat. \"A merchant is no noble, however rich.\" Supported the decree because northern exclusion would secure his family's political supremacy.",
+        "8": "(NE) The Royal Profiteer. \"Rebellion carries a price.\" Used royal authority to seize property and enrich himself through confiscations.",
+        "9": "(CE) The Butcher. \"Mercy only breeds another rebellion.\" Believes northern communities deserve collective punishment and advocates ruthless suppression.",
+        "10": "(LG) The Reformist Royalist. \"We won the kingdom back. Now we must make it worthy of keeping.\" Opposed the bloodline decree but fought to preserve unity.",
+        "11": "(LN) The Traditionalist Steward. \"Every man has his place, and every place its obligations.\" Believes hereditary hierarchy maintains peace and order, even if it restricts freedom.",
+        "12": "(NG) The War-Weary Parent. \"They say we won. My sons are still dead.\" Supported the king but now cares little for victory celebrations or political arguments."
+    }
+}

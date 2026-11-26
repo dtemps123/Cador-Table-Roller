@@ -1,0 +1,30 @@
+{
+    "table": "npc-occupation-redvale",
+    "dice": "1d20",
+    "results": {
+        "1": "Ranch hand",
+        "2": "Ranch hand",
+        "3": "Drover",
+        "4": "Herdsman",
+        "5": "Horse breeder",
+        "6": "Wrangler",
+        "7": "Homesteader",
+        "8": "Farmer",
+        "9": "Farrier",
+        "10": "Saddler",
+        "11": "Livestock merchant",
+        "12": "Teamster",
+        "13": "Veterinarian",
+        "14": "Butcher",
+        "15": "Saloonkeeper",
+        "16": "Gambler",
+        "17": "Bounty hunter",
+        "18": "Ranger or deputy",
+        "19": "Retired soldier",
+        "20": {
+            "table": "Unusual occupation",
+            "dice": "external-table:npc-unusual-occupation",
+            "results": "Unusual occupation"
+        }
+    }
+}

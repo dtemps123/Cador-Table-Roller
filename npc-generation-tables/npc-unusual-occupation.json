@@ -1,0 +1,18 @@
+{
+    "table": "npc-unusual-occupation",
+    "dice": "1d12",
+    "results": {
+        "1": "Traveling preacher",
+        "2": "Undertaker",
+        "3": "Snake-oil salesman",
+        "4": "Traveling musician",
+        "5": "Fortune teller",
+        "6": "Newspaper correspondent",
+        "7": "Antiquarian",
+        "8": "Professional duelist",
+        "9": "Traveling physician",
+        "10": "Wildlife collector",
+        "11": "Cartographer",
+        "12": "Traveling magician or illusionist"
+    }
+}

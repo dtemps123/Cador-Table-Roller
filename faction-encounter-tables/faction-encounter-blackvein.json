@@ -1,0 +1,26 @@
+{
+    "table": "faction-encounter-blackvein",
+    "dice": "1d20",
+    "results": {
+        "1": "Faction: Iron Spurs\nPotential NPCs: Halden Crowmark, Nessa Flintward\nEncounter composition: Mounted Rangers, mountain scouts, knights, trackers, tax escorts",
+        "2": "Faction: Iron Spurs\nPotential NPCs: Halden Crowmark, Nessa Flintward\nEncounter composition: Mounted Rangers, mountain scouts, knights, trackers, tax escorts",
+        "3": "Faction: Iron Spurs\nPotential NPCs: Halden Crowmark, Nessa Flintward\nEncounter composition: Mounted Rangers, mountain scouts, knights, trackers, tax escorts",
+        "4": "Faction: Blackpick Claimholders\nPotential NPCs: Borin Blackpick, Dagna Flintmark, Orik Goldvein\nEncounter composition: Dwarven prospectors, miners, spelunkers, armed mining expeditions",
+        "5": "Faction: Blackpick Claimholders\nPotential NPCs: Borin Blackpick, Dagna Flintmark, Orik Goldvein\nEncounter composition: Dwarven prospectors, miners, spelunkers, armed mining expeditions",
+        "6": "Faction: Cinderhook Warrens\nPotential NPCs: Nixxa Copperthumb, Rikket Nails, Huzza Fen\nEncounter composition: Goblin miners, mechanics, merchants, salvagers, caravan guards",
+        "7": "Faction: Cinderhook Warrens\nPotential NPCs: Nixxa Copperthumb, Rikket Nails, Huzza Fen\nEncounter composition: Goblin miners, mechanics, merchants, salvagers, caravan guards",
+        "8": "Faction: Karrathi\nPotential NPCs: Torven Slatebough, Elira Stonefall, Varric Ashenleaf\nEncounter composition: Wood elf Mountain Wardens, hunters, surveyors, archers",
+        "9": "Faction: Karrathi\nPotential NPCs: Torven Slatebough, Elira Stonefall, Varric Ashenleaf\nEncounter composition: Wood elf Mountain Wardens, hunters, surveyors, archers",
+        "10": "Faction: Ash-Tusk Host\nPotential NPCs: Urzak Bone-Drum, Korga the Red-Handed, Drogath Ash-Eye\nEncounter composition: Orc raiders, war chiefs, shamans, hunting parties",
+        "11": "Faction: Ash-Tusk Host\nPotential NPCs: Urzak Bone-Drum, Korga the Red-Handed, Drogath Ash-Eye\nEncounter composition: Orc raiders, war chiefs, shamans, hunting parties",
+        "12": "Faction: Crowbar Company\nPotential NPCs: Bennet Pike\nEncounter composition: Veteran soldiers, siege engineers, sappers, alchemists, hired laborers",
+        "13": "Faction: Highcairn Clans\nPotential NPCs: Korva Skybreaker, Brannik Froststep, Oru Mountain-Song\nEncounter composition: Goliath guides, mountain warriors, hunters, herders",
+        "14": "Faction: Broadmaw Kindreds\nPotential NPCs: Grudda Four-Bowls, Morna Root-Eater, Pogg One-Eye\nEncounter composition: Hill giants, hunting parties, livestock raiders",
+        "15": "Faction: Ashen Vow\nPotential NPCs: Ysabet Crowthorne\nEncounter composition: Fallen knights, mounted retainers, zealots, irregular infantry",
+        "16": "Faction: Hollow Regiment\nPotential NPCs: Merek Thorne\nEncounter composition: Unnaturally disciplined veterans, infantry patrols, scouts",
+        "17": "Faction: Eastway Overland & Express\nPotential NPCs: Mabel Harrow, Dawson Tull\nEncounter composition: Stagecoaches, freight wagons, guards, couriers, road surveyors",
+        "18": "Faction: Ironmark Assay & Trust\nPotential NPCs: Iris Flint, Gable Sorn, Abigail Mercer\nEncounter composition: Assayers, armed bullion escorts, claim brokers, debt collectors",
+        "19": "Faction: Greycoat Detective Agency\nPotential NPCs: Mara Quill, Gideon Crowe\nEncounter composition: Investigators, bounty hunters, armed posses, private guards",
+        "20": "Faction: Four-Spur Land & Cattle\nPotential NPCs: Della Mercer, Hugh Maddox\nEncounter composition: Supply herds, drovers, mounted guards, livestock buyers"
+    }
+}

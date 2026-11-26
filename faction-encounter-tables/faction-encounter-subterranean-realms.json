@@ -1,0 +1,26 @@
+{
+    "table": "faction-encounter-subterranean-realms",
+    "dice": "1d20",
+    "results": {
+        "1": "Faction: Deepwardens\nPotential NPCs: Brunna Darkiron\nEncounter composition: Duergar soldiers, armored guards, tunnel patrols",
+        "2": "Faction: Deepwardens\nPotential NPCs: Brunna Darkiron\nEncounter composition: Duergar soldiers, armored guards, tunnel patrols",
+        "3": "Faction: Deepwardens\nPotential NPCs: Brunna Darkiron\nEncounter composition: Duergar soldiers, armored guards, tunnel patrols",
+        "4": "Faction: Deepwardens\nPotential NPCs: Brunna Darkiron\nEncounter composition: Duergar soldiers, armored guards, tunnel patrols",
+        "5": "Faction: Deepwardens\nPotential NPCs: Brunna Darkiron\nEncounter composition: Duergar soldiers, armored guards, tunnel patrols",
+        "6": "Faction: Deepwardens\nPotential NPCs: Brunna Darkiron\nEncounter composition: Duergar soldiers, armored guards, tunnel patrols",
+        "7": "Faction: Blackforge Consortium\nPotential NPCs: Durnek Ashmantle\nEncounter composition: Duergar overseers, miners, guards, enslaved workers",
+        "8": "Faction: Blackforge Consortium\nPotential NPCs: Durnek Ashmantle\nEncounter composition: Duergar overseers, miners, guards, enslaved workers",
+        "9": "Faction: Blackforge Consortium\nPotential NPCs: Durnek Ashmantle\nEncounter composition: Duergar overseers, miners, guards, enslaved workers",
+        "10": "Faction: Blackforge Consortium\nPotential NPCs: Durnek Ashmantle\nEncounter composition: Duergar overseers, miners, guards, enslaved workers",
+        "11": "Faction: Blackforge Consortium\nPotential NPCs: Durnek Ashmantle\nEncounter composition: Duergar overseers, miners, guards, enslaved workers",
+        "12": "Faction: Understone Exchange\nPotential NPCs: Dura Flintscar\nEncounter composition: Duergar merchants, smugglers, cargo escorts, slave traders",
+        "13": "Faction: Understone Exchange\nPotential NPCs: Dura Flintscar\nEncounter composition: Duergar merchants, smugglers, cargo escorts, slave traders",
+        "14": "Faction: Understone Exchange\nPotential NPCs: Dura Flintscar\nEncounter composition: Duergar merchants, smugglers, cargo escorts, slave traders",
+        "15": "Faction: Understone Exchange\nPotential NPCs: Dura Flintscar\nEncounter composition: Duergar merchants, smugglers, cargo escorts, slave traders",
+        "16": "Faction: Cinderhook Warrens\nPotential NPCs: Huzza Fen, Rikket Nails\nEncounter composition: Goblin miners, salvagers, subterranean merchants",
+        "17": "Faction: Cinderhook Warrens\nPotential NPCs: Huzza Fen, Rikket Nails\nEncounter composition: Goblin miners, salvagers, subterranean merchants",
+        "18": "Faction: Crowbar Company\nPotential NPCs: Bennet Pike\nEncounter composition: Sappers, engineers, mercenary veterans",
+        "19": "Faction: Broken Anvil\nPotential NPCs: Harn Blackcairn\nEncounter composition: Duergar dissidents, fugitives, saboteurs",
+        "20": "Faction: Illithid Colony\nPotential NPCs: TBD\nEncounter composition: Mind flayers, psionically dominated thralls"
+    }
+}

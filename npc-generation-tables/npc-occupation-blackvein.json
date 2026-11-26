@@ -1,0 +1,30 @@
+{
+    "table": "npc-occupation-blackvein",
+    "dice": "1d20",
+    "results": {
+        "1": "Prospector",
+        "2": "Miner",
+        "3": "Miner",
+        "4": "Mining foreman",
+        "5": "Assayer",
+        "6": "Claim broker",
+        "7": "Surveyor",
+        "8": "Quarryman",
+        "9": "Smelter",
+        "10": "Blacksmith",
+        "11": "Merchant",
+        "12": "Laborer",
+        "13": "Engineer",
+        "14": "Banker",
+        "15": "Saloonkeeper",
+        "16": "Gambler",
+        "17": "Bounty hunter",
+        "18": "Ranger or deputy",
+        "19": "Retired soldier",
+        "20": {
+            "table": "Unusual occupation",
+            "dice": "external-table:npc-unusual-occupation",
+            "results": "Unusual occupation"
+        }
+    }
+}

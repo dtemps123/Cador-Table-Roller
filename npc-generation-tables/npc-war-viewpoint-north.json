@@ -1,0 +1,18 @@
+{
+    "table": "npc-war-viewpoint-north",
+    "dice": "1d12",
+    "results": {
+        "1": "(LG) The Principled Patriot. \"A king must honor the rights of his people.\" Believed rebellion was necessary but opposed the mistreatment of civilians.",
+        "2": "(NG) The Reluctant Rebel. \"I fought for my home, not my lord.\" Took up arms when royal troops entered his county. Never cared for secession before that.",
+        "3": "(CG) The Commoner's Champion. \"No man's blood makes him better than another.\" Despises hereditary privilege but also opposes the merchant oligarchs who led the rebellion.",
+        "4": "(LN) The Loyal Retainer. \"My oath was to my lord, and I kept it.\" Followed his noble house into rebellion despite privately doubting its cause.",
+        "5": "(N) The Merchant's Son. \"They meant to take everything we'd built.\" Fought because his family's business depended upon northern commercial privileges.",
+        "6": "(CN) The Free Soldier. \"Kings and lords can both go hang.\" Joined the rebellion to escape an oppressive life. Now refuses to submit to any authority.",
+        "7": "(LE) The Merchant Magnate. \"We built the north. Why should they rule it?\" Financed secession to preserve profitable monopolies and increase his own political influence.",
+        "8": "(NE) The Opportunistic Privateer. \"A royal ship carries twice the plunder.\" Used patriotism to justify piracy and robbery during the war.",
+        "9": "(CE) The Vengeful Partisan. \"There are no innocent royalists.\" Blames the south for everything he's lost and sees atrocities as justified retaliation.",
+        "10": "(LG) The Northern Loyalist. \"The crown was wrong, but tearing Cador apart was worse.\" Opposed the royal decree but remained loyal to the kingdom.",
+        "11": "(LN) The Royal Magistrate. \"The law is not something we may discard when it displeases us.\" Believed the rebellion threatened the stability necessary to protect ordinary people.",
+        "12": "(NG) The Peace Advocate. \"A thousand graves for a handful of titles.\" Opposed the war from the beginning and sheltered deserters from both armies."
+    }
+}

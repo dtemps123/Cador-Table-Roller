@@ -1,0 +1,26 @@
+{
+    "table": "encounter-npc-presence",
+    "dice": "1d20",
+    "results": {
+        "1": "Unnamed members of the faction",
+        "2": "Unnamed members of the faction",
+        "3": "Unnamed members of the faction",
+        "4": "Unnamed members of the faction",
+        "5": "Unnamed members of the faction",
+        "6": "Unnamed members of the faction",
+        "7": "Unnamed members of the faction",
+        "8": "Unnamed members of the faction",
+        "9": "Unnamed members of the faction",
+        "10": "Unnamed members of the faction",
+        "11": "Unnamed members of the faction",
+        "12": "Unnamed members of the faction",
+        "13": "Unnamed members of the faction",
+        "14": "Unnamed members of the faction",
+        "15": "Unnamed members of the faction",
+        "16": "Unnamed members of the faction",
+        "17": "A named subordinate or notable member",
+        "18": "A named subordinate or notable member",
+        "19": "A named subordinate or notable member",
+        "20": "A faction leader or senior figure, if plausible"
+    }
+}
