@@ -1,0 +1,11 @@
+# Generated job and rumor records
+/opportunity-logs/
+
+# Python bytecode and local virtual environments
+__pycache__/
+*.py[cod]
+/.venv/
+/venv/
+
+# macOS metadata
+.DS_Store
