@@ -15,6 +15,7 @@ from tkinter import ttk, filedialog, messagebox
 
 sys.path.append("/Users/dtemples/DnD/Tools/DnD-Table-Roller")
 from TableRoller import roll_on_table
+from campaign_records import HERE, allocate, choose_record, atomic_json, matches
 
 REGIONS = ("Blackvein", "Thornhollow", "Redvale", "Westbridge")
 DEPTHS = ("Incidental", "Supporting", "Major")
@@ -43,6 +44,12 @@ SECTIONS = {
         ("war_consequences", "Personal consequences of the war", 3, True),
         ("viewpoint_of_the_frontier", "Viewpoint of the frontier", 4, True),
         ("relationships", "Relationships", 4, False),
+    ],
+    "Source & status": [
+        ("record_status", "Record status", 2, False),
+        ("source_reference", "Source reference", 3, False),
+        ("source_profile", "Source biography / excerpt", 12, False),
+        ("adventure_hooks", "Adventure hooks", 4, False),
     ],
     "Campaign records": [
         ("knowledge_and_rumors", "Knowledge and rumors", 5, False),
@@ -165,8 +172,9 @@ def write_record(path, record, extras=None):
 
 
 class NPCWorkshop:
-    def __init__(self, root, tables_dir):
+    def __init__(self, root, tables_dir, records_dir=HERE / "npc-records"):
         self.root = root
+        self.records_dir = Path(records_dir)
         self.path = None
         self.extras = {}
         self.widgets = {}
@@ -192,7 +200,7 @@ class NPCWorkshop:
         for label, cmd, shortcut in [("New blank NPC", self.new, "Ctrl+N"),
                                      ("Open NPC…", self.open, "Ctrl+O"),
                                      ("Save NPC", self.save, "Ctrl+S"),
-                                     ("Save NPC as…", self.save_as, "Ctrl+Shift+S")]:
+                                     ("Duplicate NPC…", self.save_as, "Ctrl+Shift+S")]:
             file_menu.add_command(label=label, command=cmd, accelerator=shortcut)
         file_menu.add_separator()
         file_menu.add_command(label="Quit", command=self.close)
@@ -225,8 +233,8 @@ class NPCWorkshop:
         bar = ttk.Frame(top)
         bar.pack(fill="x", pady=(5,0))
         for label, command in [("Generate NPC", self.generate), ("New blank", self.new),
-                               ("Open JSON…", self.open), ("Save", self.save),
-                               ("Save as…", self.save_as)]:
+                               ("Search / load…", self.open), ("Save", self.save),
+                               ("Duplicate…", self.save_as)]:
             ttk.Button(bar, text=label, command=command).pack(side="left", padx=(0,6))
         ttk.Label(bar, text="All fields editable").pack(side="right")
         self.tabs = ttk.Notebook(root)
@@ -363,7 +371,7 @@ class NPCWorkshop:
     def open(self):
         if not self.can_replace():
             return
-        path = filedialog.askopenfilename(parent=self.root, filetypes=[("NPC JSON", "*.json"), ("All files", "*")])
+        path = choose_record(self.root, self.records_dir, ("npc_id", *FIELDS), "npc_id")
         if not path:
             return
         try:
@@ -383,24 +391,26 @@ class NPCWorkshop:
         self.status.set(f"Loaded {path}. No random rolls performed.")
 
     def save(self):
-        return self.save_as() if self.path is None else self.save_to(self.path)
+        return self.save_to(self.path)
 
     def save_as(self):
-        name = re.sub(r'[^\w.-]+', '-', self.record()["name"].strip(), flags=re.UNICODE).strip(".-") or "npc"
-        path = filedialog.asksaveasfilename(parent=self.root, defaultextension=".json", initialfile=name + ".json", filetypes=[("NPC JSON", "*.json")])
-        return self.save_to(Path(path)) if path else False
+        if self.path is not None and not messagebox.askyesno("Duplicate NPC", "Create a new NPC with a new ID?", parent=self.root): return False
+        return self.save_to(None)
 
     def save_to(self, path):
         record = self.record()
         try:
-            write_record(path, record, self.extras)
+            if not record['name'].strip(): raise ValueError('Enter an NPC name before saving.')
+            data = dict(self.extras); data.update(record)
+            if path is None or not data.get('npc_id'):
+                path = allocate(self.records_dir, self.records_dir / 'added-npcs', 'N', 'npc_id', data)
+            else:
+                write_record(path, record, self.extras)
+            self.extras = {k:v for k,v in data.items() if k not in FIELDS}
         except Exception as exc:
-            self.error(exc)
-            return False
+            self.error(exc); return False
         self.path, self.saved = Path(path), record.copy()
-        self.update_title()
-        self.status.set(f"Saved {path}")
-        return True
+        self.update_title(); self.status.set(f"Saved {path}"); return True
 
     def update_title(self):
         self.root.title("Eccentric East — NPC Workshop" + (f" — {self.path.name}" if self.path else ""))
@@ -417,9 +427,10 @@ class NPCWorkshop:
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--tables-dir", type=Path, default=DEFAULT_TABLES)
+    parser.add_argument("--records-dir", type=Path, default=HERE / "npc-records")
     args = parser.parse_args()
     root = tk.Tk()
-    NPCWorkshop(root, args.tables_dir)
+    NPCWorkshop(root, args.tables_dir, args.records_dir)
     root.mainloop()
 
 

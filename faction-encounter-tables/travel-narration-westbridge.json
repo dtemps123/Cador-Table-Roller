@@ -1,0 +1,26 @@
+{
+    "table": "travel-narration-westbridge",
+    "dice": "1d20",
+    "results": {
+        "1": "The broad waters of the river move steadily past, carrying scattered branches and fallen leaves downstream. Ripples of reflected sunlight dance across the surface.",
+        "2": "Long-legged waterbirds stand motionless among the reeds, occasionally plunging their beaks into the shallows. Their patient hunting continues undisturbed as you pass.",
+        "3": "A heavily laden merchant barge makes its way along the river. Its crew moves among stacks of barrels and crates beneath a broad canvas awning.",
+        "4": "The ground gives way to a marsh where countless narrow waterways weave between islands of reeds and tall grasses. The air is thick with the sounds of frogs and insects.",
+        "5": "Rows of cultivated fields extend across the fertile lowlands. Narrow drainage ditches divide the plots, their banks lined with flowering plants.",
+        "6": "Several large fish break the surface of a quiet pool beneath the riverbank. Concentric ripples spread outward before being lost in the gentle current.",
+        "7": "The remains of an old stone landing extend into the water. Its lower steps are stained green with algae, and reeds grow between the cracked stones.",
+        "8": "A small fishing settlement stands upon raised wooden platforms above the muddy riverbank. Nets hang from poles to dry, and narrow boats rest in the shallows.",
+        "9": "Enormous willow trees lean over the water, their trailing branches occasionally brushing its surface. Their tangled roots form small sheltered pools along the bank.",
+        "10": "A flock of white waterbirds rises from a distant sandbank, wheeling together above the river before settling farther downstream.",
+        "11": "Freshly cut timber floats past in a loosely bound raft. Several workers guide it along the current using long poles, calling instructions to one another.",
+        "12": "The riverbank bears a distinct line of dried mud and stranded vegetation well above the present water level. It is a reminder of how dramatically the river swells during its seasonal floods.",
+        "13": "Several brightly painted wooden boats are drawn up along a sheltered inlet. Nearby, woven baskets and fishing traps lie arranged beneath a simple reed shelter.",
+        "14": "Morning mist hangs above the water, leaving the tops of distant trees visible while concealing their trunks. The faint splash of oars carries remarkably far through the still air.",
+        "15": "A pair of otters tumbles into the river from a muddy bank. They resurface farther away, briefly wrestling over something before disappearing beneath the water again.",
+        "16": "Half-submerged stone pillars rise from the shallows, worn smooth by the current. Water flows between them where an ancient crossing once stood.",
+        "17": "Along a distant bank, workers load sacks of grain and tightly bound bundles onto a waiting boat. Their voices mingle with the creaking of timber and the gentle lapping of water.",
+        "18": "Dragonflies dart among the reeds, their iridescent wings catching the sunlight. Some are large enough that the beating of their wings is distinctly audible.",
+        "19": "As the light fades, clusters of tiny luminous creatures gather beneath the surface of the water. Their faint green glow follows the shifting currents, forming ribbons of light in the shallows.",
+        "20": "The land opens into an immense expanse of water and sky. Distant sails and low wooded shores are scarcely distinguishable against the shimmering horizon."
+    }
+}

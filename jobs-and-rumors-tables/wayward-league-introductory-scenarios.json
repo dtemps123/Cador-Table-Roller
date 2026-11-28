@@ -1,0 +1,26 @@
+{
+    "table": "wayward-league-introductory-scenarios",
+    "dice": "1d20",
+    "results": {
+        "1": "The Man in the Hangman’s Noose. Redvale: save a framed adventurer from a hanging after a cattle-trafficking accusation. (Handbook v0.4, pp. 21–25.)",
+        "2": "The Last Man Standing. Blackvein: a wounded dwarf prospector needs help rescuing companions in an abandoned shaft. (Handbook v0.4, pp. 21–25.)",
+        "3": "The Gambler’s Debt. Westbridge: a crooked gambling house threatens a traveling halfling with indentured service. (Handbook v0.4, pp. 21–25.)",
+        "4": "The Hunter Becomes the Hunted. Thornhollow: protect a wounded bounty hunter from the outlaw gang that freed her prisoner. (Handbook v0.4, pp. 21–25.)",
+        "5": "The Broken Stagecoach. Redvale: recover a guild adventurer’s stolen stagecoach cargo. (Handbook v0.4, pp. 21–25.)",
+        "6": "The Surveyor’s Folly. Thornhollow: help an imprisoned gnome surveyor investigate a disturbed woodland shrine. (Handbook v0.4, pp. 21–25.)",
+        "7": "The Stranger in the Stocks. Redvale: resolve a dispute over an elf’s refusal to reveal a Varkesh watering hole. (Handbook v0.4, pp. 21–25.)",
+        "8": "The Missing Riverboat. Westbridge: locate a missing keelboat and rescue its passengers. (Handbook v0.4, pp. 21–25.)",
+        "9": "The Company Man’s Prisoner. Blackvein: investigate a foreman’s imprisonment of an adventurer who exposed dangerous working conditions. (Handbook v0.4, pp. 21–25.)",
+        "10": "The Thing in the Well. Thornhollow: rescue a missing adventurer beneath a village well. (Handbook v0.4, pp. 21–25.)",
+        "11": "Three Against Twenty. Redvale: help a sheriff and guild adventurer defend a town from rustlers. (Handbook v0.4, pp. 21–25.)",
+        "12": "The Old Soldier’s Secret. Thornhollow: protect a community while navigating royal pursuit of a former Last Colours soldier. (Handbook v0.4, pp. 21–25.)",
+        "13": "The Claim Jumper’s Map. Blackvein: resolve rival claims to an abandoned mine. (Handbook v0.4, pp. 21–25.)",
+        "14": "The Man Who Couldn’t Leave. Westbridge: clear a traveler accused of stealing a jeweled necklace. (Handbook v0.4, pp. 21–25.)",
+        "15": "The Lonely Watchtower. Blackvein: rescue missing guild adventurers from a recently occupied watchtower. (Handbook v0.4, pp. 21–25.)",
+        "16": "The Witch’s Accusation. Thornhollow: investigate an illness and prevent the condemnation of a healer and her defender. (Handbook v0.4, pp. 21–25.)",
+        "17": "The Ferry to Nowhere. Westbridge: help a wounded guild adventurer recover a missing ferry and its crew. (Handbook v0.4, pp. 21–25.)",
+        "18": "The Sheriff’s Last Request. Redvale: escort a prisoner entrusted to the heroes by a dying sheriff. (Handbook v0.4, pp. 21–25.)",
+        "19": "The Locked Room Beneath the Inn. Westbridge: rescue an adventurer trapped in passages beneath an inn. (Handbook v0.4, pp. 21–25.)",
+        "20": "The Last Stand at Broken Creek. Any marquisate: help a veteran adventurer defend an isolated settlement. (Handbook v0.4, pp. 21–25.)"
+    }
+}

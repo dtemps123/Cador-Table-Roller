@@ -1,0 +1,26 @@
+{
+    "table": "travel-narration-qasari-lands",
+    "dice": "1d20",
+    "results": {
+        "1": "Great ridges of golden sand stretch toward the horizon, their crests sharpened by the prevailing wind. Fine grains spill down their sheltered slopes in delicate, ever-shifting patterns.",
+        "2": "The desert gives way to a broad plain of dark, weather-polished stones. The contrast between the black ground and the pale surrounding dunes is striking.",
+        "3": "A line of laden camels crosses the distant landscape, their colorful blankets and bundles visible through the shimmering heat. The caravan moves with the patient rhythm of travelers accustomed to the desert.",
+        "4": "A narrow-leafed tree grows from a depression in the rocky ground. Its roots have spread remarkably far through the surrounding cracks in search of moisture.",
+        "5": "Tall sandstone formations rise from the desert floor, sculpted by centuries of wind into slender columns and sweeping arches. Their colors range from pale cream to deep red.",
+        "6": "In the distance, a cluster of palms and pale buildings marks an oasis settlement. Green cultivated plots surround it, standing in vivid contrast to the barren country beyond.",
+        "7": "A small desert lizard scurries across the hot sand, lifting its feet in an almost comical alternating dance before retreating beneath a stone.",
+        "8": "Low stone markers appear at intervals across the otherwise featureless landscape. Each bears a carefully carved Qasari inscription, marking distances and directions along the caravan route.",
+        "9": "The bed of a dry river winds between steep banks. Smooth stones and scattered driftwood reveal the tremendous volume of water that occasionally passes through it.",
+        "10": "A distant settlement's flat rooftops are draped with brightly colored textiles drying in the sun. Their reds, blues, and yellows lend an unexpected brilliance to the surrounding desert.",
+        "11": "The afternoon heat distorts the horizon, creating the fleeting appearance of distant pools of water. The shimmering images dissolve and reform as the angle of the light changes.",
+        "12": "The weathered remains of an ancient colonnade rise from a rocky slope. Its surviving pillars bear traces of elaborate elven ornamentation, softened by generations of windblown sand.",
+        "13": "A flock of small desert birds gathers around a shallow stone basin. They take turns drinking from the water before returning to the shade of nearby shrubs.",
+        "14": "An orderly succession of stone-lined shafts extends across the plain, marking the course of a subterranean water channel. Their regularly maintained covers speak to the care with which the Qasari manage their precious water supplies.",
+        "15": "Several mounted figures travel along a distant ridgeline, their faces protected by light cloth against the sand. The distinctive shapes of their repeating crossbows are briefly visible against the sky.",
+        "16": "A warm wind carries sheets of fine sand across the ground. Behind it, the surface of the dunes is left covered with delicate ripples resembling the bed of a shallow sea.",
+        "17": "Near a small cluster of buildings, rows of decorated ceramic vessels stand drying beneath a shaded awning. The geometric patterns painted upon them are exceptionally intricate.",
+        "18": "As the sun descends, the desert rapidly changes color. Distant hills turn violet, the dunes glow copper-red, and the shadows deepen with astonishing speed.",
+        "19": "After sunset, scattered grains of translucent sand retain a faint amber glow. Where the wind gathers them together, they form delicate luminous patterns across the desert floor.",
+        "20": "Night descends upon the desert beneath an extraordinary canopy of stars. With scarcely a cloud or distant light to obscure them, even the faintest constellations are visible from horizon to horizon."
+    }
+}

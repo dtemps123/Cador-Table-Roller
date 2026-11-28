@@ -1,0 +1,26 @@
+{
+    "table": "travel-narration-thornhollow",
+    "dice": "1d20",
+    "results": {
+        "1": "The trees grow taller and closer together until their intertwined branches form an almost uninterrupted canopy. Shafts of sunlight illuminate drifting pollen in the otherwise subdued light of the forest.",
+        "2": "A swift stream rushes between moss-covered rocks, occasionally disappearing beneath the tangled roots of enormous trees. Its constant murmur accompanies your journey for some distance.",
+        "3": "Somewhere in the distance, the rhythmic blows of woodcutters' axes interrupt the natural sounds of the forest. Eventually, there comes a tremendous crack and the muffled thunder of a falling tree.",
+        "4": "A family of deer moves silently through the undergrowth. For a moment, their silhouettes are visible between the trees before they vanish into the woodland.",
+        "5": "The forest floor is carpeted with ferns and fallen leaves. Small mushrooms of every conceivable shade grow upon decaying logs, their colors particularly vivid in the damp air.",
+        "6": "You come upon a stretch of woodland recently cleared for timber. Fresh stumps stand among heaps of branches, and the sweet smell of pine resin hangs heavily in the air.",
+        "7": "A shallow ravine divides the forested hills. Ancient trees lean out over its edges, their exposed roots descending like tangled ropes toward the water below.",
+        "8": "A modest woodland farm occupies a clearing among the trees. Smoke rises from a stone chimney, and several beehives stand in a carefully tended garden.",
+        "9": "A woodpecker announces its presence with an astonishingly loud series of knocks. Another answers from farther away, and the exchange continues as you travel.",
+        "10": "The remnants of an old paved road are occasionally visible beneath the forest floor. Roots have lifted its stones into uneven angles, and saplings grow through what was once its center.",
+        "11": "A light rain begins to fall, pattering against the canopy high above. Remarkably little reaches the ground until the leaves become saturated and begin shedding enormous droplets.",
+        "12": "Several trees bear intricate, carefully carved patterns unlike the crude markings left by Cadorian woodsmen. The living bark has grown around the oldest carvings without entirely obscuring them.",
+        "13": "Across a broad clearing, teams of draft horses drag freshly felled trunks toward a timber road. The distant workers occasionally call to one another above the creaking of harnesses.",
+        "14": "The woodland briefly gives way to a meadow filled with wildflowers. Hundreds of butterflies flutter above the grasses, gathering wherever sunlight reaches the ground.",
+        "15": "Thick morning mist settles among the trunks, obscuring everything beyond a short distance. As the air warms, the forest slowly reappears around you.",
+        "16": "An old stone boundary wall winds between the trees, almost entirely swallowed by moss. In places, the trunks of mature trees have grown directly through it.",
+        "17": "Several neatly stacked piles of firewood stand beside a narrow woodland path. Each is sheltered beneath a simple roof of bark and branches, ready for the coming winter.",
+        "18": "A large owl watches your passage from the hollow of an ancient tree. It turns its head with exaggerated deliberation before settling back into its feathers.",
+        "19": "In the deepest shade, clusters of pale blue mushrooms give off a soft light. A few tiny insects drift among them, leaving brief trails of luminescence in their wake.",
+        "20": "You pass beneath an immense tree whose trunk would require a dozen people to encircle. Its branches support an entire garden of mosses, ferns, and smaller plants, suspended far above the forest floor."
+    }
+}

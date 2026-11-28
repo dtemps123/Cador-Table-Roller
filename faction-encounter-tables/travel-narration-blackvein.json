@@ -1,0 +1,26 @@
+{
+    "table": "travel-narration-blackvein",
+    "dice": "1d20",
+    "results": {
+        "1": "The foothills rise in successive ridges of grey stone, each more imposing than the last. The distant mountains are crowned with snow, though the valley below is warm and dry.",
+        "2": "A narrow creek tumbles over polished stones, its bed glittering with flecks of mica. In the shallows, reddish mineral deposits stain the rocks beneath the clear water.",
+        "3": "A pair of mountain goats stand upon a seemingly inaccessible ledge high above you, watching your passage with considerable indifference.",
+        "4": "The hillside is scarred by old prospecting trenches and shallow excavations. Weathered wooden stakes mark claims whose owners have long since moved on.",
+        "5": "From somewhere across the valley comes the faint, rhythmic sound of hammers striking stone. Thin columns of smoke rise from the chimneys of a distant mining camp.",
+        "6": "Great slabs of fractured rock jut from the mountainside at improbable angles. Bands of rust-red and pale white stone run through them like streaks of paint.",
+        "7": "A string of heavily laden mules picks its way along a distant mountain trail, their bells echoing across the valley long after the animals have passed from view.",
+        "8": "Several enormous black birds circle lazily upon the rising currents of warm air. Their shadows occasionally sweep across the ground beneath your feet.",
+        "9": "You pass the remains of an old stone bridge, built with immense, precisely fitted blocks. Whatever road once crossed it has largely disappeared beneath scree and mountain grasses.",
+        "10": "A cold wind carries the faint smell of charcoal and hot iron. Across the valley, a small smelting works sends a steady plume of smoke into the sky.",
+        "11": "The ground is littered with loose fragments of slate that clatter beneath your boots. Stunted pines grow wherever their roots have managed to find purchase among the rocks.",
+        "12": "A small homestead occupies a remarkably level patch of hillside. Goats wander behind a low stone wall while brightly colored laundry flutters in the mountain breeze.",
+        "13": "A succession of timber hoists and spoil heaps marks the slopes above you. From this distance, the miners moving among them appear scarcely larger than ants.",
+        "14": "The afternoon sun illuminates a distant cliff, revealing geometric carvings worn almost smooth by centuries of exposure. Their sheer size suggests the work of ancient dwarven hands.",
+        "15": "A colony of marmots scatters among the rocks as you approach. One remains perched upon a boulder, issuing indignant whistles until you have moved on.",
+        "16": "Clouds gather against the highest peaks while the lower valleys remain bathed in sunlight. For a time, curtains of distant rain obscure entire mountainsides.",
+        "17": "Neatly arranged cairns stand along the ridgeline, marking a route across the mountains. The stones have been fitted together with a care that suggests generations of maintenance.",
+        "18": "Small purple flowers grow in the cracks of an otherwise barren slope. Their delicate petals stand out brilliantly against the dark mineral-rich soil.",
+        "19": "As the light fades, tiny crystals embedded in the exposed rock emit a faint, silvery luminescence. The mountainside resembles a scattering of stars against the darkening stone.",
+        "20": "From a high vantage point, the country opens before you in a vast succession of valleys, ridges, and distant peaks. The workings of the frontier's miners occupy only a tiny fraction of the mountains stretching toward the horizon."
+    }
+}

@@ -13,6 +13,7 @@ import tempfile
 
 sys.path.append("/Users/dtemples/DnD/Tools/DnD-Table-Roller")
 from TableRoller import roll_on_table
+from campaign_records import HERE, allocate, choose_record, atomic_json, matches
 
 REGIONS = {
     'Blackvein': 'blackvein', 'Thornhollow': 'thornhollow',
@@ -27,7 +28,7 @@ REGION_NOTES = {
 DEFAULT_TABLES = Path(__file__).resolve().parent / 'faction-encounter-tables'
 REGIONAL_FIELDS = ('faction', 'potential_npcs', 'composition')
 MODIFIERS = {'activity': 'encounter-activity', 'disposition': 'encounter-disposition', 'npc_presence': 'encounter-npc-presence'}
-FIELDS = ('region', 'faction', 'potential_npcs', 'composition', 'activity', 'disposition', 'npc_presence', 'selected_npcs', 'location', 'date', 'notes')
+FIELDS = ('region', 'faction', 'potential_npcs', 'composition', 'activity', 'disposition', 'npc_presence', 'selected_npcs', 'location', 'date', 'notes', 'name', 'adventure', 'hex_coordinates', 'encounter_type', 'participants', 'circumstances', 'outcome', 'discoveries', 'consequences', 'related_records', 'subsequent_developments')
 
 
 def result_text(value):
@@ -82,6 +83,7 @@ def blank_record(region='Blackvein'):
 def generate_record(region, directory):
     record = blank_record(region)
     record.update(roll_faction(region, directory))
+    record['encounter_type'] = 'Faction encounter'
     for key, table in MODIFIERS.items():
         record[key] = result_text(roll(table, directory))
     return record
@@ -121,9 +123,10 @@ def write_record(path, record, extras=None):
 
 
 class EncounterGUI:
-    def __init__(self, root, directory=DEFAULT_TABLES):
+    def __init__(self, root, directory=DEFAULT_TABLES, records_dir=HERE / "faction-encounter-records"):
         self.root = root
-        root.title('Eccentric East — Regional Faction Encounters')
+        self.records_dir = Path(records_dir)
+        root.title('Eccentric East — Wilderness Travel & Encounters')
         root.geometry('1000x760')
         root.minsize(760, 580)
         self.directory = tk.StringVar(value=str(directory))
@@ -151,7 +154,7 @@ class EncounterGUI:
         outer.pack(fill='both', expand=True)
         outer.columnconfigure(0, weight=1)
         outer.rowconfigure(4, weight=1)
-        ttk.Label(outer, text='Regional Faction Encounters', font=('TkDefaultFont', 17, 'bold')).grid(row=0, column=0, sticky='w')
+        ttk.Label(outer, text='Wilderness Travel & Encounters', font=('TkDefaultFont', 17, 'bold')).grid(row=0, column=0, sticky='w')
         top = ttk.Frame(outer)
         top.grid(row=1, column=0, sticky='ew', pady=(8, 5))
         top.columnconfigure(1, weight=1)
@@ -171,7 +174,7 @@ class EncounterGUI:
         ttk.Button(controls, text='New blank', command=self.new_blank).pack(side='left')
         files = ttk.Frame(outer)
         files.grid(row=3, column=0, sticky='ew', pady=(0, 8))
-        for label, cmd in [('Open JSON…', self.open_record), ('Save', self.save), ('Save as…', self.save_as), ('Copy encounter', self.copy_record)]:
+        for label, cmd in [('Search / load…', self.open_record), ('Save', self.save), ('Duplicate…', self.save_as), ('Copy encounter', self.copy_record)]:
             ttk.Button(files, text=label, command=cmd).pack(side='left', padx=(0, 5))
         tabs = ttk.Notebook(outer)
         tabs.grid(row=4, column=0, sticky='nsew')
@@ -201,8 +204,16 @@ class EncounterGUI:
         ttk.Label(encounter, text='NPC candidates and composition are suggestions, not guaranteed participants or encounter counts.\nAdjust the disposition and named NPC presence to suit faction motivations and the circumstances.', wraplength=760, justify='left').grid(row=9, column=0, columnspan=3, sticky='w', pady=(5, 0))
         self.add_field(notes, 0, 'date', 'In-game date', 1)
         self.add_field(notes, 1, 'location', 'Encounter location', 2)
-        self.add_field(notes, 2, 'notes', 'Notes / outcome', 15)
-        notes.rowconfigure(2, weight=1)
+        self.add_field(notes, 2, 'name', 'Encounter name', 1)
+        self.add_field(notes, 3, 'adventure', 'Adventure / log', 1)
+        self.add_field(notes, 4, 'hex_coordinates', 'Hex coordinates', 1)
+        self.add_field(notes, 5, 'encounter_type', 'Encounter type', 1)
+        self.add_field(notes, 6, 'participants', 'Participants', 2)
+        self.add_field(notes, 7, 'circumstances', 'Circumstances', 3)
+        outcomes = ttk.Frame(tabs, padding=8); tabs.add(outcomes, text='Outcome & consequences'); outcomes.columnconfigure(1, weight=1)
+        for i,(k,label) in enumerate([('outcome','Outcome'),('discoveries','Discoveries'),('consequences','Consequences'),('related_records','Related IDs'),('subsequent_developments','Subsequent developments'),('notes','Other / legacy notes')]):
+            self.add_field(outcomes,i,k,label,3); outcomes.rowconfigure(i,weight=1)
+        travel = ttk.Frame(tabs,padding=10); tabs.add(travel,text='Travel'); self.build_travel(travel)
         ttk.Label(roller, text='Roll any table independently (including composite regional tables).').grid(row=0, column=0, columnspan=3, sticky='w', pady=4)
         self.table_combo = ttk.Combobox(roller, textvariable=self.table_choice, state='readonly', width=42)
         self.table_combo.grid(row=1, column=0, columnspan=2, sticky='ew')
@@ -317,6 +328,7 @@ class EncounterGUI:
             self.status.set('Blank encounter.')
 
     def apply_faction(self, row):
+        self.put("encounter_type", "Faction encounter")
         for key, value in row.items():
             self.put(key, value)
         self.put('selected_npcs', '')
@@ -366,7 +378,7 @@ class EncounterGUI:
     def open_record(self):
         if not self.confirm_replace():
             return
-        path = filedialog.askopenfilename(filetypes=[('JSON files', '*.json'), ('All files', '*')], parent=self.root)
+        path = choose_record(self.root, self.records_dir, ('encounter_id', *FIELDS), 'encounter_id')
         if not path:
             return
         try:
@@ -380,27 +392,50 @@ class EncounterGUI:
         self.status.set(f'Loaded {self.path.name}. No rolls performed.')
 
     def save(self):
-        if self.path is None:
-            return self.save_as()
         return self.save_to(self.path)
 
     def save_as(self):
-        name = self.get('faction').strip() or 'encounter'
-        filename = ''.join(c if c.isalnum() or c in '-_' else '-' for c in name) + '.json'
-        path = filedialog.asksaveasfilename(defaultextension='.json', initialfile=filename, filetypes=[('JSON files', '*.json')], parent=self.root)
-        return self.save_to(path) if path else False
+        if self.path is not None and not messagebox.askyesno('Duplicate encounter','Create a new encounter ID?',parent=self.root): return False
+        return self.save_to(None)
 
     def save_to(self, path):
         try:
-            record = self.record()
-            write_record(path, record, self.extras)
-            self.path = Path(path)
-            self.baseline = record.copy()
-            self.status.set(f'Saved {self.path.name}.')
-            return True
-        except Exception as exc:
-            self.report_error(exc)
-            return False
+            record=self.record(); data=dict(self.extras); data.update(record)
+            if not record.get('name') and not record.get('faction') and not record.get('encounter_type'): raise ValueError('Enter an encounter name, faction or type.')
+            if path is None or not data.get('encounter_id'):
+                path=allocate(self.records_dir,self.records_dir,'E','encounter_id',data)
+            else: write_record(path,record,self.extras)
+            self.extras={k:v for k,v in data.items() if k not in FIELDS}; self.path=Path(path);self.baseline=record.copy();self.status.set(f'Saved {self.path.name}.');return True
+        except Exception as exc: self.report_error(exc);return False
+
+    def build_travel(self, parent):
+        self.leg=tk.StringVar(value='Outbound');self.days=tk.StringVar(value='1');self.narration_region=tk.StringVar(value='Blackvein');self.travel_result=tk.StringVar(value='One check per leg; additional encounters are at the DM’s discretion. Encounter region is selected above; narration region is independent.')
+        row=ttk.Frame(parent);row.pack(fill='x')
+        ttk.Label(row,text='Leg').pack(side='left');ttk.Combobox(row,textvariable=self.leg,values=('Outbound','Return'),state='readonly',width=12).pack(side='left',padx=5)
+        ttk.Label(row,text='Travel days').pack(side='left');ttk.Entry(row,textvariable=self.days,width=8).pack(side='left',padx=5)
+        ttk.Button(row,text='Check encounter',command=self.travel_check).pack(side='left')
+        ttk.Label(parent,textvariable=self.travel_result,wraplength=780).pack(anchor='w',pady=12)
+        row=ttk.Frame(parent);row.pack(fill='x');ttk.Label(row,text='Narration region').pack(side='left');ttk.Combobox(row,textvariable=self.narration_region,values=('Blackvein','Redvale','Thornhollow','Westbridge','Qasari Lands'),state='readonly').pack(side='left',padx=5);ttk.Button(row,text='Roll narration',command=self.narrate).pack(side='left')
+        self.narration=tk.Text(parent,wrap='word',height=8);self.narration.pack(fill='both',expand=True,pady=8)
+        ttk.Button(parent,text='Copy narration',command=lambda:self.copy(self.narration.get('1.0','end-1c'))).pack(anchor='w')
+
+    def travel_check(self):
+        try:
+            days=int(self.days.get());
+            if days<0:raise ValueError('Days must be a nonnegative integer.')
+            if not self.confirm_replace():return
+            chance,rolled,kind=check_travel(days,self.leg.get(),self.directory.get())
+            self.travel_result.set(f'{self.leg.get()}: {days} day(s), {chance}% chance, d100 = {rolled}; {kind or "no encounter"}.')
+            if not kind:return
+            rec=generate_record(self.region.get(),self.directory.get()) if kind=='Faction encounter' else blank_record(self.region.get())
+            rec['encounter_type']=kind;rec['notes']=self.travel_result.get();self.path=None;self.extras={};self.baseline=blank_record(rec['region']);self.set_record(rec)
+            self.status.set('Encounter draft generated; add circumstances and save only if significant.')
+        except Exception as exc:self.report_error(exc)
+
+    def narrate(self):
+        try:
+            value=result_text(roll('travel-narration-'+self.narration_region.get().lower().replace(' ','-'),self.directory.get()));self.narration.delete('1.0','end');self.narration.insert('1.0',value)
+        except Exception as exc:self.report_error(exc)
 
     def copy(self, text):
         self.root.clipboard_clear()
@@ -416,12 +451,19 @@ class EncounterGUI:
             self.root.destroy()
 
 
+def check_travel(days, leg, directory):
+    if days < 0 or leg not in ('Outbound','Return'): raise ValueError('Invalid travel leg or duration.')
+    chance=min(100,days*(10 if leg=='Outbound' else 5))
+    rolled=int(result_text(roll('travel-encounter-check',directory)))
+    return chance,rolled,result_text(roll('encounter-type',directory)) if rolled<=chance else ''
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--tables-dir', type=Path, default=DEFAULT_TABLES)
+    parser.add_argument("--records-dir", type=Path, default=HERE / "faction-encounter-records")
     args = parser.parse_args()
     root = tk.Tk()
-    EncounterGUI(root, args.tables_dir)
+    EncounterGUI(root, args.tables_dir, args.records_dir)
     root.mainloop()
 
 

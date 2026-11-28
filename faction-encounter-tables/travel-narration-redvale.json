@@ -1,0 +1,26 @@
+{
+    "table": "travel-narration-redvale",
+    "dice": "1d20",
+    "results": {
+        "1": "A steady wind sweeps across the open grasslands, sending great waves through the tall golden grasses. The landscape seems to move like an immense inland sea.",
+        "2": "The shallow waters of a stream wind between banks of reddish earth. Broad deposits of smooth stones mark the much wider course it occupies during the spring rains.",
+        "3": "A vast herd of cattle moves slowly across the distant plains, accompanied by mounted drovers. A cloud of reddish dust hangs above the herd, visible from miles away.",
+        "4": "A solitary tree stands atop a low hill, its branches bent permanently in the direction of the prevailing wind. A handful of birds shelter among its leaves.",
+        "5": "The sun has baked the exposed earth into a mosaic of cracked red clay. Hardy grasses emerge wherever the soil retains even a little moisture.",
+        "6": "Several wild horses gallop across the plain in the distance. They briefly disappear into a shallow depression before emerging again along the crest of a hill.",
+        "7": "You pass a seemingly endless fence of rough-hewn posts and wooden rails. Beyond it, livestock graze among the grasses, occasionally lifting their heads to watch you.",
+        "8": "A broad sandstone outcrop rises from the surrounding plains, its layered sides glowing a deep orange in the sunlight. Weathering has sculpted its uppermost rocks into rounded pillars.",
+        "9": "A small prairie fox pauses among the grasses, its ears twitching toward you. It disappears with a sudden flash of its bushy tail.",
+        "10": "The remains of a stone corral stand upon a gentle rise. Its weathered walls are considerably older than the newer timber fences scattered throughout the region.",
+        "11": "A distant ranchstead is surrounded by grazing livestock, outbuildings, and several large water troughs. The creaking of a wooden wind-driven water pump carries faintly across the plain.",
+        "12": "Thunderheads accumulate along the horizon, their dark undersides contrasting sharply with the sunlit grasslands. Occasional flashes of lightning illuminate the distant hills.",
+        "13": "The grasses give way to a broad patch of flowering clover and bright yellow blossoms. The air hums with countless bees moving between them.",
+        "14": "Several mounted herders tend a flock upon the distant slopes. Their brightly colored blankets and the arrangements of their pack animals distinguish them from the Cadorian ranchers nearer town.",
+        "15": "Small burrowing animals stand upright beside their holes, issuing sharp warning calls to one another. They retreat underground as you draw nearer.",
+        "16": "A row of old standing stones follows the crest of a ridge. Their surfaces are weathered smooth, and their shadows stretch across the grasses in the afternoon light.",
+        "17": "A freight wagon moves slowly along a distant trail, its canvas cover billowing in the wind. Its progress is marked by a thin ribbon of red dust.",
+        "18": "As evening approaches, the grasslands take on a deep amber hue. The low sun seems impossibly large as it sinks beneath the uninterrupted horizon.",
+        "19": "Tiny golden motes rise from a patch of tall grass, drifting upon the breeze like airborne embers. They gradually fade as they are carried farther from the plants.",
+        "20": "From the crest of a hill, you can see miles of uninterrupted rolling country. Scattered herds, distant homesteads, and the occasional ribbon of water are the only interruptions in the immense expanse of grassland."
+    }
+}

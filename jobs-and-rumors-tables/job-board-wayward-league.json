@@ -1,0 +1,14 @@
+{
+    "table": "job-board-wayward-league",
+    "dice": "1d8",
+    "results": {
+        "1": "Source row: 1\nSource page: 16\nTitle: An Old Correspondence\nPosting: Deliver a letter personally to an old friend or former lover from whom Flopthar has not heard since the War of Broken Banners.\nPosted at: Wayward Spur\nNPCs and factions involved: Flopthar Turdtoucher; Wayward League",
+        "2": "Source row: 2\nSource page: 16\nTitle: An Acquired Taste\nPosting: Recover a particular ingredient from a rare or dangerous creature in the required condition.\nPosted at: Wayward Spur\nNPCs and factions involved: Flopthar Turdtoucher; Wayward League",
+        "3": "Source row: 3\nSource page: 17\nTitle: The Mark of the Deep Forge\nPosting: Investigate the provenance of metalwork bearing a distinctive duergar maker’s mark.\nPosted at: Wayward Spur\nNPCs and factions involved: Sazerac Martini; Wayward League",
+        "4": "Source row: 4\nSource page: 17\nTitle: A Worthy Blade\nPosting: Recover a sample of an unusual metal or a record of a forgotten smithing technique.\nPosted at: Wayward Spur\nNPCs and factions involved: Sazerac Martini; Wayward League",
+        "5": "Source row: 5\nSource page: 18\nTitle: A Better Mousetrap\nPosting: Recover a rare mineral or lost mechanical blueprint for a novel repeating-crossbow design.\nPosted at: Wayward Spur\nNPCs and factions involved: Tabitha Wren; Wayward League",
+        "6": "Source row: 6\nSource page: 18\nTitle: Field Testing\nPosting: Field-test experimental ammunition under specified circumstances and report the findings.\nPosted at: Wayward Spur\nNPCs and factions involved: Tabitha Wren; Wayward League",
+        "7": "Source row: 7\nSource page: 20\nTitle: The Missing Card\nPosting: Investigate a location resembling an unfamiliar tarokka card illustration.\nPosted at: Wayward Spur\nNPCs and factions involved: Madame Zoria; Wayward League",
+        "8": "Source row: 8\nSource page: 20\nTitle: A Familiar Mist\nPosting: Investigate an isolated settlement periodically enveloped in unnatural mist.\nPosted at: Wayward Spur\nNPCs and factions involved: Madame Zoria; Wayward League"
+    }
+}

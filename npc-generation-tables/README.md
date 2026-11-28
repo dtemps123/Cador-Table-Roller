@@ -7,7 +7,7 @@ Copy the folder into your roller repository. From that repository (with your nor
 ```python
 from TableRoller import roll_on_table
 
-tables_dir = "eccentric-east-npc-tables"
+tables_dir = "npc-generation-tables"
 print(roll_on_table("npc-appearance", tables_dir=tables_dir, verbose=False))
 print(roll_on_table("npc-redvale-major", tables_dir=tables_dir, verbose=False))
 ```
@@ -63,3 +63,8 @@ Validation: every direct keyed result and every file reference checked, with 100
 - `npc-westbridge-incidental.json`
 - `npc-westbridge-major.json`
 - `npc-westbridge-supporting.json`
+
+
+## v0.4 record library
+
+The 41 existing generation tables are retained. The v0.4 roster is separately stored in `../npc-records/base-npcs`, with new NPCs saved to `../npc-records/added-npcs`. Use the GUI search/load functionality and permanent N-### IDs; see the repository README.

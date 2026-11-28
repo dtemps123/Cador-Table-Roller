@@ -16,11 +16,11 @@
         "12": "Creature encounter",
         "13": "Creature encounter",
         "14": "Creature encounter",
-        "15": "Environmental hazard",
-        "16": "Environmental hazard",
-        "17": "Environmental hazard",
-        "18": "Discovery or point of interest",
-        "19": "Discovery or point of interest",
-        "20": "Unusual or supernatural event"
+        "15": "Terrain or weather",
+        "16": "Terrain or weather",
+        "17": "Terrain or weather",
+        "18": "Terrain or weather",
+        "19": "Supernatural or magical",
+        "20": "Supernatural or magical"
     }
 }
